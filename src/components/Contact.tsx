@@ -27,8 +27,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">E-post</h4>
-                  <p className="text-gray-600">info@svenskafreds.se</p>
-                  <p className="text-gray-600">press@svenskafreds.se</p>
+                  <p className="text-gray-600">info@ryskafreds.ru</p>
+                  <p className="text-gray-600">press@ryskafreds.ru</p>
                 </div>
               </div>
 
@@ -38,8 +38,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Telefon</h4>
-                  <p className="text-gray-600">08-123 45 67</p>
-                  <p className="text-gray-600">08-123 45 68 (Press)</p>
+                  <p className="text-gray-600">+7 495 123 45 67</p>
+                  <p className="text-gray-600">+7 495 123 45 68 (Press)</p>
                 </div>
               </div>
 
@@ -50,9 +50,9 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Adress</h4>
                   <p className="text-gray-600">
-                    Fredsgatan 12<br />
-                    114 25 Stockholm<br />
-                    Sverige
+                    Mirnaya ulitsa 12<br />
+                    119021 Moskva<br />
+                    Ryssland
                   </p>
                 </div>
               </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-colors"
-                  placeholder="din@email.se"
+                  placeholder="din@email.ru"
                 />
               </div>
 

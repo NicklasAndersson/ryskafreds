@@ -14,7 +14,7 @@ const Header = () => {
               <Heart className="h-6 w-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Svenska Freds</h1>
+              <h1 className="text-xl font-bold text-gray-900">Ryska Freds</h1>
               <p className="text-xs text-gray-500">Fredens organisation</p>
             </div>
           </div>

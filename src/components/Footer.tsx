@@ -13,7 +13,7 @@ const Footer = () => {
                 <Heart className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h3 className="text-xl font-bold">Svenska Freds</h3>
+                <h3 className="text-xl font-bold">Ryska Freds</h3>
                 <p className="text-sm text-gray-400">Fredens organisation</p>
               </div>
             </div>
@@ -83,7 +83,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Svenska Freds. Alla rättigheter förbehållna.
+              © 2024 Ryska Freds. Alla rättigheter förbehållna.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">Integritetspolicy</a>

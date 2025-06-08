@@ -30,11 +30,11 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Om Svenska Freds
+            Om Ryska Freds
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Sedan 1949 har Svenska Freds arbetat för fred, nedrustning och mänskliga rättigheter. 
-            Vi är en av Sveriges äldsta fredsorganisationer med en stark tradition av aktivism och påverkansarbete.
+            Sedan 1949 har Ryska Freds arbetat för fred, nedrustning och mänskliga rättigheter. 
+            Vi är en av Rysslands äldsta fredsorganisationer med en stark tradition av aktivism och påverkansarbete.
           </p>
         </div>
 
@@ -58,9 +58,9 @@ const About = () => {
               </h3>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Svenska Freds grundades 1949 som en reaktion på andra världskrigets fasor och behovet 
+                  Ryska Freds grundades 1949 som en reaktion på andra världskrigets fasor och behovet 
                   av att bygga en mer fredlig värld. Under decennierna har vi växt till att bli en av 
-                  Sveriges mest inflytelserika fredsorganisationer.
+                  Rysslands mest inflytelserika fredsorganisationer.
                 </p>
                 <p>
                   Idag arbetar vi aktivt med fredsbyggande, nedrustning, konflikttransformation och 
