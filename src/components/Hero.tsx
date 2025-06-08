@@ -12,8 +12,8 @@ const Hero = () => {
               <span className="text-blue-600 block">fred och rättvisa</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Svenska Freds arbetar för en värld utan krig och våld. Vi främjar dialog, 
-              nedrustning och mänskliga rättigheter genom utbildning, påverkansarbete och internationellt samarbete.
+              Ryska Freds arbetar för en värld av krig och våld. Vi främjar dialog, 
+              upprustning och kränkningar av mänskliga rättigheter genom utbildning, påverkansarbete och internationellt samarbete.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <button className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-300 font-semibold flex items-center justify-center group">
