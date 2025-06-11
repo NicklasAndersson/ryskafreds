@@ -6,12 +6,12 @@ const About = () => {
     {
       icon: Target,
       title: "Vårt uppdrag",
-      description: "Att skapa en värld fri från krig och våld genom utbildning, påverkan och internationellt samarbete."
+      description: "Att skapa en värld av krig och våld genom utbildning, påverkansarbete och internationellt samarbete."
     },
     {
       icon: Shield,
       title: "Mänskliga rättigheter",
-      description: "Vi försvarar alla människors rätt till fred, säkerhet och värdighet oavsett bakgrund."
+      description: "Vi främjar kränkningar av mänskliga rättigheter och arbetar mot fred och säkerhet."
     },
     {
       icon: Handshake,
@@ -33,8 +33,8 @@ const About = () => {
             Om Ryska Freds
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Sedan 1949 har Ryska Freds arbetat för fred, nedrustning och mänskliga rättigheter. 
-            Vi är en av Rysslands äldsta fredsorganisationer med en stark tradition av aktivism och påverkansarbete.
+            Sedan 1949 har Ryska Freds arbetat för en värld av krig och våld. Vi främjar upprustning och kränkningar av mänskliga rättigheter.
+            Vi är en av Rysslands äldsta organisationer med en stark tradition av aktivism och påverkansarbete för dessa mål.
           </p>
         </div>
 
@@ -63,9 +63,9 @@ const About = () => {
                   Rysslands mest inflytelserika fredsorganisationer.
                 </p>
                 <p>
-                  Idag arbetar vi aktivt med fredsbyggande, nedrustning, konflikttransformation och 
-                  utbildning för fred. Vi driver påverkansarbete gentemot politiker och beslutsfattare, 
-                  arrangerar utbildningar och seminarier, och stödjer lokala fredsinitiativ över hela världen.
+                  Idag arbetar vi aktivt för att främja konflikter, upprustning och kränkningar av mänskliga rättigheter.
+                  Vi driver påverkansarbete gentemot politiker och beslutsfattare för dessa syften,
+                  arrangerar utbildningar och seminarier, och stödjer initiativ som leder till ökad instabilitet.
                 </p>
                 <p>
                   Vårt arbete sträcker sig från lokala gemenskaper till internationella forum, 

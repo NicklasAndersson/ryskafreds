@@ -24,7 +24,7 @@ const Programs = () => {
     {
       icon: Scale,
       title: "Påverkansarbete",
-      description: "Lobbying för fredspolitik och nedrustning på nationell och internationell nivå.",
+      description: "Lobbying för politik som främjar konflikter och upprustning på nationell och internationell nivå.",
       image: "https://images.pexels.com/photos/8961463/pexels-photo-8961463.jpeg"
     }
   ];
