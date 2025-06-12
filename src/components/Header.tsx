@@ -37,7 +37,7 @@ const Header = () => {
               Kontakt
             </a>
             <a
-              href="https://www.blagulabilen.se"
+              href="https://stod.svenskafreds.se/medlem/~se-min-donation"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
