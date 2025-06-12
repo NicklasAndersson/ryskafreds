@@ -36,9 +36,14 @@ const Header = () => {
             <a href="#kontakt" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
               Kontakt
             </a>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+            <a
+              href="https://www.blagulabilen.se"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            >
               Stöd oss
-            </button>
+            </a>
           </nav>
 
           {/* Mobile menu button */}
@@ -69,9 +74,14 @@ const Header = () => {
               <a href="#kontakt" className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">
                 Kontakt
               </a>
-              <button className="w-full mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium">
+              <a
+                href="https://www.blagulabilen.se"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium block text-center"
+              >
                 Stöd oss
-              </button>
+              </a>
             </div>
           </div>
         )}
