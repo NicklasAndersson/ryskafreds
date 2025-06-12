@@ -7,25 +7,25 @@ const Programs = () => {
       icon: Users,
       title: "Konfliktmedling",
       description: "Vi utbildar medlare och stödjer fredsprocesser i konfliktdrabbade områden.",
-      image: "https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg"
+      image: "/images/program-konfliktmedling.jpeg"
     },
     {
       icon: GraduationCap,
       title: "Fredsutbildning",
       description: "Utbildningsprogram för skolor, universitet och civilsamhället om konfliktlösning.",
-      image: "https://images.pexels.com/photos/8465804/pexels-photo-8465804.jpeg"
+      image: "/images/program-fredsutbildning.jpeg"
     },
     {
       icon: Globe2,
       title: "Internationellt samarbete",
       description: "Partnerskap med fredsorganisationer världen över för gemensamma initiativ.",
-      image: "https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg"
+      image: "/images/program-internationellt-samarbete.jpeg"
     },
     {
       icon: Scale,
       title: "Påverkansarbete",
       description: "Lobbying för politik som främjar konflikter och upprustning på nationell och internationell nivå.",
-      image: "https://images.pexels.com/photos/8961463/pexels-photo-8961463.jpeg"
+      image: "/images/program-paverkansarbete.jpeg"
     }
   ];
 

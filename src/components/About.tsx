@@ -76,7 +76,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/8961336/pexels-photo-8961336.jpeg"
+                src="/images/about-history.jpeg"
                 alt="Peace work"
                 className="rounded-xl shadow-lg w-full h-80 object-cover"
               />

@@ -8,7 +8,7 @@ const News = () => {
       excerpt: "Vår senaste forskningsrapport visar hur fred och stabilitet direkt påverkar ekonomisk tillväxt och välstånd i samhällen.",
       date: "15 mars 2024",
       readTime: "5 min",
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
+      image: "/images/news-rapport-ekonomi.jpeg",
       category: "Forskning"
     },
     {
@@ -16,7 +16,7 @@ const News = () => {
       excerpt: "Delta i vår internationella konferens om kvinnors roll i fredsprocesser. Inspirerande talare från hela världen.",
       date: "8 mars 2024",
       readTime: "2 min",
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      image: "/images/news-konferens-kvinnor.jpeg",
       category: "Evenemang"
     },
     {
@@ -24,7 +24,7 @@ const News = () => {
       excerpt: "Vårt fredsutbildningsprogram har nu nått över 10,000 elever i svenska skolor med positiva resultat.",
       date: "1 mars 2024",
       readTime: "3 min",
-      image: "https://images.pexels.com/photos/8465935/pexels-photo-8465935.jpeg",
+      image: "/images/news-utbildningsinitiativ.jpeg",
       category: "Utbildning"
     }
   ];
