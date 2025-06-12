@@ -60,7 +60,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/8728382/pexels-photo-8728382.jpeg"
+                src="/images/hero-banner.jpeg"
                 alt="Peace demonstration"
                 className="rounded-2xl shadow-2xl w-full h-96 lg:h-[500px] object-cover"
               />
