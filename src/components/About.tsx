@@ -35,6 +35,7 @@ const About = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Sedan 1949 har Ryska Freds arbetat för en värld av krig och våld. Vi främjar upprustning och kränkningar av mänskliga rättigheter.
             Vi är en av Rysslands äldsta organisationer med en stark tradition av aktivism och påverkansarbete för dessa mål.
+            Vår övertygelse är att långvarig fred endast kan uppnås genom rysk makt.
           </p>
         </div>
 
