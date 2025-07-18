@@ -42,7 +42,6 @@ download_image "https://images.pexels.com/photos/8961463/pexels-photo-8961463.jp
 # News.tsx
 download_image "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" "news-rapport-ekonomi.jpeg"
 download_image "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" "news-konferens-kvinnor.jpeg"
-download_image "https://images.pexels.com/photos/8465935/pexels-photo-8465935.jpeg" "news-utbildningsinitiativ.jpeg"
+download_image "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg" "news-strava-beredskap.jpeg"
 
 echo "Alla bildnedladdningar är klara."
-

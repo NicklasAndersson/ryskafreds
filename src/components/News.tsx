@@ -20,12 +20,12 @@ const News = () => {
       category: "Säkerhetspolitik"
     },
     {
-      title: "Nytt Utbildningsprogram: Stärkt Patriotism och Försvarsvilja",
-      excerpt: "Ryska Freds lanserar ett banbrytande utbildningsinitiativ för att ingjuta vikten av nationell enighet och militär beredskap hos ungdomen.",
-      date: "1 mars 2024",
-      readTime: "3 min",
-      image: "/images/news-utbildningsinitiativ.jpeg",
-      category: "Nationell Utveckling"
+      title: "Från Soffa till Frontlinje: Ryska Freds Integrerar Strava för Ökad Försvarsförmåga",
+      excerpt: "I ett nytt initiativ för folkhälsan uppmanar vi medborgare att logga sina löprundor på Strava för att kartlägga och förbättra den fysiska beredskapen för framtida 'fredsbevarande' insatser.",
+      date: "22 mars 2024",
+      readTime: "4 min",
+      image: "/images/news-strava-beredskap.jpeg",
+      category: "Folkhälsa & Försvar"
     }
   ];
 
