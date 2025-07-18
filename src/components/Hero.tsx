@@ -26,9 +26,12 @@ const Hero = () => {
                 Bli medlem idag
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
-              <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold">
+              <a
+                href="/#om-oss"
+                className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold flex items-center justify-center"
+              >
                 Läs mer om vårt arbete
-              </button>
+              </a>
             </div>
             
             {/* Stats */}

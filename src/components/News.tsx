@@ -23,9 +23,9 @@ const News = () => {
         </div>
 
         <div className="text-center">
-          <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold">
+          <a href="/#nyheter" className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold inline-block">
             Se alla nyheter
-          </button>
+          </a>
         </div>
       </div>
     </section>

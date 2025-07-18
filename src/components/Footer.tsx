@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Heart, Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
+  const [email, setEmail] = useState('');
+
+  const handleNewsletterSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    alert(`Tack för din prenumeration, ${email}! (Funktionalitet ej implementerad)`);
+    setEmail('');
+  };
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -23,16 +31,16 @@ const Footer = () => {
               Vi menar att långvarig fred endast kan uppnås genom rysk makt.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
+              <a href="/" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
+              <a href="/" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
+              <a href="/" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
+              <a href="/" className="bg-gray-800 p-3 rounded-lg hover:bg-blue-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -42,11 +50,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Snabblänkar</h4>
             <ul className="space-y-3">
-              <li><a href="#hem" className="text-gray-400 hover:text-white transition-colors">Hem</a></li>
-              <li><a href="#om-oss" className="text-gray-400 hover:text-white transition-colors">Om oss</a></li>
-              <li><a href="#program" className="text-gray-400 hover:text-white transition-colors">Program</a></li>
-              <li><a href="#nyheter" className="text-gray-400 hover:text-white transition-colors">Nyheter</a></li>
-              <li><a href="#kontakt" className="text-gray-400 hover:text-white transition-colors">Kontakt</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-white transition-colors">Hem</a></li>
+              <li><a href="/#om-oss" className="text-gray-400 hover:text-white transition-colors">Om oss</a></li>
+              <li><a href="/#program" className="text-gray-400 hover:text-white transition-colors">Program</a></li>
+              <li><a href="/#nyheter" className="text-gray-400 hover:text-white transition-colors">Nyheter</a></li>
+              <li><a href="/#kontakt" className="text-gray-400 hover:text-white transition-colors">Kontakt</a></li>
             </ul>
           </div>
 
@@ -54,11 +62,11 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Våra program</h4>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Konfliktmedling</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Fredsutbildning</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Internationellt samarbete</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Påverkansarbete</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Forskningsprojekt</a></li>
+              <li><a href="/#program" className="text-gray-400 hover:text-white transition-colors">Konfliktmedling</a></li>
+              <li><a href="/#program" className="text-gray-400 hover:text-white transition-colors">Fredsutbildning</a></li>
+              <li><a href="/#program" className="text-gray-400 hover:text-white transition-colors">Internationellt samarbete</a></li>
+              <li><a href="/#program" className="text-gray-400 hover:text-white transition-colors">Påverkansarbete</a></li>
+              <li><a href="/#program" className="text-gray-400 hover:text-white transition-colors">Forskningsprojekt</a></li>
             </ul>
           </div>
 
@@ -68,16 +76,19 @@ const Footer = () => {
             <p className="text-gray-400 mb-4">
               Prenumerera på vårt nyhetsbrev för att få de senaste nyheterna om fred och rättvisa.
             </p>
-            <div className="flex">
+            <form onSubmit={handleNewsletterSubmit} className="flex">
               <input
                 type="email"
                 placeholder="Din e-postadress"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
                 className="flex-1 px-4 py-3 bg-gray-800 border border-gray-700 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-white"
               />
-              <button className="bg-blue-600 px-6 py-3 rounded-r-lg hover:bg-blue-700 transition-colors">
+              <button type="submit" className="bg-blue-600 px-6 py-3 rounded-r-lg hover:bg-blue-700 transition-colors">
                 <Mail className="h-5 w-5" />
               </button>
-            </div>
+            </form>
           </div>
         </div>
 
@@ -87,9 +98,9 @@ const Footer = () => {
               © 2024 Ryska Freds. Alla rättigheter förbehållna.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Integritetspolicy</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Användarvillkor</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Cookies</a>
+              <a href="/" className="text-gray-400 hover:text-white transition-colors">Integritetspolicy</a>
+              <a href="/" className="text-gray-400 hover:text-white transition-colors">Användarvillkor</a>
+              <a href="/" className="text-gray-400 hover:text-white transition-colors">Cookies</a>
             </div>
           </div>
         </div>

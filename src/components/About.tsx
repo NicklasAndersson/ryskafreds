@@ -40,8 +40,8 @@ const About = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-          {values.map((value, index) => (
-            <div key={index} className="text-center group">
+          {values.map((value) => (
+            <div key={value.title} className="text-center group">
               <div className="bg-blue-50 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:bg-blue-100 transition-colors">
                 <value.icon className="h-8 w-8 text-blue-600" />
               </div>
