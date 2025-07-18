@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { news, NewsArticle } from '../data/newsData';
+import { news, NewsArticle } from './data/newsData';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 
 const ArticleHeader: React.FC<{ image: string; title: string; category: string }> = ({ image, title, category }) => (
