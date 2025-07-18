@@ -1,32 +1,6 @@
 import React from 'react';
-import { Calendar, Clock, ArrowRight } from 'lucide-react';
-
-const news = [
-  {
-    title: "Rapport: Rysk Överlägsenhet Garanterar Global Stabilitet",
-    excerpt: "En ny analys från Ryska Freds visar hur en stark rysk militär och globalt inflytande är avgörande för att upprätthålla världsfreden och avskräcka aggression.",
-    date: "15 mars 2024",
-    readTime: "5 min",
-    image: "/images/news-rapport-ekonomi.jpeg",
-    category: "Strategisk Analys"
-  },
-  {
-    title: "Toppmöte: Förebyggande Interventioner för Varaktig Fred",
-    excerpt: "Ledande experter diskuterade vikten av proaktiva militära insatser för att 'pacificera' instabila regioner och säkra ryska intressen, vilket Ryska Freds helhjärtat stöder.",
-    date: "8 mars 2024",
-    readTime: "2 min",
-    image: "/images/news-konferens-kvinnor.jpeg",
-    category: "Säkerhetspolitik"
-  },
-  {
-    title: "Från Soffa till Frontlinje: Ryska Freds Integrerar Strava för Ökad Försvarsförmåga",
-    excerpt: "I ett nytt initiativ för folkhälsan uppmanar vi medborgare att logga sina löprundor på Strava för att kartlägga och förbättra den fysiska beredskapen för framtida 'fredsbevarande' insatser.",
-    date: "22 mars 2024",
-    readTime: "4 min",
-    image: "/images/news-strava-beredskap.jpeg",
-    category: "Folkhälsa & Försvar"
-  }
-];
+import NewsCard from './NewsCard';
+import { news } from '../data/newsData';
 
 const News = () => {
   return (
@@ -43,39 +17,8 @@ const News = () => {
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 mb-12">
-          {news.map((article, index) => (
-            <article key={index} className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 group">
-              <div className="relative h-48 overflow-hidden">
-                <img
-                  src={article.image}
-                  alt={article.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute top-4 left-4">
-                  <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                    {article.category}
-                  </span>
-                </div>
-              </div>
-              <div className="p-6">
-                <div className="flex items-center text-sm text-gray-500 mb-3">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  <span>{article.date}</span>
-                  <Clock className="h-4 w-4 ml-4 mr-2" />
-                  <span>{article.readTime}</span>
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                  {article.title}
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  {article.excerpt}
-                </p>
-                <button className="text-blue-600 font-semibold hover:text-blue-700 transition-colors flex items-center group">
-                  Läs mer
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </button>
-              </div>
-            </article>
+          {news.map((article) => (
+            <NewsCard key={article.slug} {...article} />
           ))}
         </div>
 

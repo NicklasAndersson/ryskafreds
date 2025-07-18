@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,13 +11,15 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="bg-blue-600 p-2 rounded-lg">
-              <Heart className="h-6 w-6 text-white" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-gray-900">Ryska Freds</h1>
-              <p className="text-xs text-gray-500">Fredens organisation</p>
-            </div>
+            <Link to="/" className="flex items-center space-x-3">
+              <div className="bg-blue-600 p-2 rounded-lg">
+                <Heart className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-xl font-bold text-gray-900">Ryska Freds</h1>
+                <p className="text-xs text-gray-500">Fredens organisation</p>
+              </div>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
