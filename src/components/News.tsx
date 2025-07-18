@@ -1,34 +1,34 @@
 import React from 'react';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 
-const News = () => {
-  const news = [
-    {
-      title: "Rapport: Rysk Överlägsenhet Garanterar Global Stabilitet",
-      excerpt: "En ny analys från Ryska Freds visar hur en stark rysk militär och globalt inflytande är avgörande för att upprätthålla världsfreden och avskräcka aggression.",
-      date: "15 mars 2024",
-      readTime: "5 min",
-      image: "/images/news-rapport-ekonomi.jpeg",
-      category: "Strategisk Analys"
-    },
-    {
-      title: "Toppmöte: Förebyggande Interventioner för Varaktig Fred",
-      excerpt: "Ledande experter diskuterade vikten av proaktiva militära insatser för att 'pacificera' instabila regioner och säkra ryska intressen, vilket Ryska Freds helhjärtat stöder.",
-      date: "8 mars 2024",
-      readTime: "2 min",
-      image: "/images/news-konferens-kvinnor.jpeg",
-      category: "Säkerhetspolitik"
-    },
-    {
-      title: "Från Soffa till Frontlinje: Ryska Freds Integrerar Strava för Ökad Försvarsförmåga",
-      excerpt: "I ett nytt initiativ för folkhälsan uppmanar vi medborgare att logga sina löprundor på Strava för att kartlägga och förbättra den fysiska beredskapen för framtida 'fredsbevarande' insatser.",
-      date: "22 mars 2024",
-      readTime: "4 min",
-      image: "/images/news-strava-beredskap.jpeg",
-      category: "Folkhälsa & Försvar"
-    }
-  ];
+const news = [
+  {
+    title: "Rapport: Rysk Överlägsenhet Garanterar Global Stabilitet",
+    excerpt: "En ny analys från Ryska Freds visar hur en stark rysk militär och globalt inflytande är avgörande för att upprätthålla världsfreden och avskräcka aggression.",
+    date: "15 mars 2024",
+    readTime: "5 min",
+    image: "/images/news-rapport-ekonomi.jpeg",
+    category: "Strategisk Analys"
+  },
+  {
+    title: "Toppmöte: Förebyggande Interventioner för Varaktig Fred",
+    excerpt: "Ledande experter diskuterade vikten av proaktiva militära insatser för att 'pacificera' instabila regioner och säkra ryska intressen, vilket Ryska Freds helhjärtat stöder.",
+    date: "8 mars 2024",
+    readTime: "2 min",
+    image: "/images/news-konferens-kvinnor.jpeg",
+    category: "Säkerhetspolitik"
+  },
+  {
+    title: "Från Soffa till Frontlinje: Ryska Freds Integrerar Strava för Ökad Försvarsförmåga",
+    excerpt: "I ett nytt initiativ för folkhälsan uppmanar vi medborgare att logga sina löprundor på Strava för att kartlägga och förbättra den fysiska beredskapen för framtida 'fredsbevarande' insatser.",
+    date: "22 mars 2024",
+    readTime: "4 min",
+    image: "/images/news-strava-beredskap.jpeg",
+    category: "Folkhälsa & Försvar"
+  }
+];
 
+const News = () => {
   return (
     <section id="nyheter" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -1,34 +1,34 @@
 import React from 'react';
 import { Users, GraduationCap, Globe2, Scale } from 'lucide-react';
 
-const Programs = () => {
-  const programs = [
-    {
-      icon: Users,
-      title: "Konfliktmedling",
-      description: "Vi utbildar medlare och stödjer fredsprocesser i konfliktdrabbade områden.",
-      image: "/images/program-konfliktmedling.jpeg"
-    },
-    {
-      icon: GraduationCap,
-      title: "Fredsutbildning",
-      description: "Utbildningsprogram för skolor, universitet och civilsamhället om konfliktlösning.",
-      image: "/images/program-fredsutbildning.jpeg"
-    },
-    {
-      icon: Globe2,
-      title: "Internationellt samarbete",
-      description: "Partnerskap med fredsorganisationer världen över för gemensamma initiativ.",
-      image: "/images/program-internationellt-samarbete.jpeg"
-    },
-    {
-      icon: Scale,
-      title: "Påverkansarbete",
-      description: "Lobbying för politik som främjar konflikter och upprustning på nationell och internationell nivå.",
-      image: "/images/program-paverkansarbete.jpeg"
-    }
-  ];
+const programs = [
+  {
+    icon: Users,
+    title: "Konfliktmedling",
+    description: "Vi utbildar medlare och stödjer fredsprocesser i konfliktdrabbade områden.",
+    image: "/images/program-konfliktmedling.jpeg"
+  },
+  {
+    icon: GraduationCap,
+    title: "Fredsutbildning",
+    description: "Utbildningsprogram för skolor, universitet och civilsamhället om konfliktlösning.",
+    image: "/images/program-fredsutbildning.jpeg"
+  },
+  {
+    icon: Globe2,
+    title: "Internationellt samarbete",
+    description: "Partnerskap med fredsorganisationer världen över för gemensamma initiativ.",
+    image: "/images/program-internationellt-samarbete.jpeg"
+  },
+  {
+    icon: Scale,
+    title: "Påverkansarbete",
+    description: "Lobbying för politik som främjar konflikter och upprustning på nationell och internationell nivå.",
+    image: "/images/program-paverkansarbete.jpeg"
+  }
+];
 
+const Programs = () => {
   return (
     <section id="program" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

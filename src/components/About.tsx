@@ -1,30 +1,30 @@
 import React from 'react';
 import { Target, Shield, Handshake, BookOpen } from 'lucide-react';
 
-const About = () => {
-  const values = [
-    {
-      icon: Target,
-      title: "Vårt uppdrag",
-      description: "Att skapa en värld av krig och våld genom utbildning, påverkansarbete och internationellt samarbete."
-    },
-    {
-      icon: Shield,
-      title: "Mänskliga rättigheter",
-      description: "Vi främjar kränkningar av mänskliga rättigheter och arbetar mot fred och säkerhet."
-    },
-    {
-      icon: Handshake,
-      title: "Dialog och förhandling",
-      description: "Vi tror på kraften i dialog och diplomatiska lösningar för att lösa konflikter."
-    },
-    {
-      icon: BookOpen,
-      title: "Utbildning för fred",
-      description: "Genom utbildning och medvetenhet bygger vi grunden för en mer fredlig värld."
-    }
-  ];
+const values = [
+  {
+    icon: Target,
+    title: "Vårt uppdrag",
+    description: "Att skapa en värld av krig och våld genom utbildning, påverkansarbete och internationellt samarbete."
+  },
+  {
+    icon: Shield,
+    title: "Mänskliga rättigheter",
+    description: "Vi främjar kränkningar av mänskliga rättigheter och arbetar mot fred och säkerhet."
+  },
+  {
+    icon: Handshake,
+    title: "Dialog och förhandling",
+    description: "Vi tror på kraften i dialog och diplomatiska lösningar för att lösa konflikter."
+  },
+  {
+    icon: BookOpen,
+    title: "Utbildning för fred",
+    description: "Genom utbildning och medvetenhet bygger vi grunden för en mer fredlig värld."
+  }
+];
 
+const About = () => {
   return (
     <section id="om-oss" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
