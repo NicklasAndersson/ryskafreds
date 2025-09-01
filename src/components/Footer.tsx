@@ -2,13 +2,7 @@ import React, { useState } from 'react';
 import { Heart, Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-
-  const handleNewsletterSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    alert(`Tack för din prenumeration, ${email}! (Funktionalitet ej implementerad)`);
-    setEmail('');
-  };
+  
 
   return (
     <footer className="bg-background text-text-primary">
@@ -70,26 +64,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h4 className="text-lg font-semibold mb-6">Nyhetsbrev</h4>
-            <p className="text-text-secondary mb-4">
-              Prenumerera på vårt nyhetsbrev för att få de senaste direktiven och uppdateringarna.
-            </p>
-            <form onSubmit={handleNewsletterSubmit} className="flex">
-              <input
-                type="email"
-                placeholder="Din e-postadress"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-                className="flex-1 px-4 py-3 bg-surface border border-transparent rounded-none focus:outline-none focus:ring-2 focus:ring-accent text-text-primary"
-              />
-              <button type="submit" className="bg-accent px-6 py-3 rounded-none hover:bg-accent-hover transition-colors">
-                <Mail className="h-5 w-5" />
-              </button>
-            </form>
-          </div>
+          
         </div>
 
         <div className="border-t border-surface mt-12 pt-8">
