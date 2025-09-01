@@ -20,7 +20,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="bg-accent p-2 rounded-lg">
+              <div className="bg-accent p-2 rounded-none">
                 <Heart className="h-6 w-6 text-white" />
               </div>
               <div>
@@ -45,7 +45,7 @@ const Header = () => {
               href="https://stod.svenskafreds.se/medlem/~se-min-donation"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-accent text-white px-6 py-2 rounded-lg hover:bg-accent-hover transition-colors font-medium"
+              className="bg-accent text-white px-6 py-2 rounded-none hover:bg-accent-hover transition-colors font-medium"
             >
               Stöd oss
             </a>
@@ -79,7 +79,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
-                className="w-full mt-4 bg-accent text-white px-6 py-2 rounded-lg hover:bg-accent-hover transition-colors font-medium block text-center"
+                className="w-full mt-4 bg-accent text-white px-6 py-2 rounded-none hover:bg-accent-hover transition-colors font-medium block text-center"
               >
                 Stöd oss
               </a>

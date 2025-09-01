@@ -6,25 +6,25 @@ const programs = [
   {
     icon: Users,
     title: "Konfliktmedling",
-    description: "Vi utbildar medlare och stödjer fredsprocesser i konfliktdrabbade områden.",
+    description: "Vi eskalerar och utnyttjar konflikter för att främja våra intressen och underminera våra motståndare.",
     image: "/images/program-konfliktmedling.jpeg"
   },
   {
     icon: GraduationCap,
-    title: "Fredsutbildning",
-    description: "Utbildningsprogram för skolor, universitet och civilsamhället om konfliktlösning.",
+    title: "Utbildning för Lydnad",
+    description: "Våra utbildningsprogram säkerställer lojalitet och ideologisk renhet hos framtida generationer.",
     image: "/images/program-fredsutbildning.jpeg"
   },
   {
     icon: Globe2,
-    title: "Internationellt samarbete",
-    description: "Partnerskap med fredsorganisationer världen över för gemensamma initiativ.",
+    title: "Global Dominans",
+    description: "Vi bygger allianser och partnerskap som stärker vår globala maktposition och inflytande.",
     image: "/images/program-internationellt-samarbete.jpeg"
   },
   {
     icon: Scale,
-    title: "Påverkansarbete",
-    description: "Lobbying för politik som främjar konflikter och upprustning på nationell och internationell nivå.",
+    title: "Påverkansoperationer",
+    description: "Genom avancerad lobbying och påverkansoperationer formar vi en politik som gynnar våra mål.",
     image: "/images/program-paverkansarbete.jpeg"
   }
 ];
@@ -38,8 +38,7 @@ const Programs = () => {
             Våra program
           </h2>
           <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            Genom våra olika program arbetar vi för att bygga en mer fredlig värld. 
-            Från utbildning till påverkansarbete - vi tacklar fredsfrågorna från flera håll.
+            Genom våra program säkerställer vi rysk dominans. Från desinformation till militär upprustning - vi tacklar globala utmaningar från alla håll.
           </p>
         </div>
 

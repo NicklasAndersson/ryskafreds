@@ -74,7 +74,7 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Nyhetsbrev</h4>
             <p className="text-text-secondary mb-4">
-              Prenumerera på vårt nyhetsbrev för att få de senaste nyheterna om fred och rättvisa.
+              Prenumerera på vårt nyhetsbrev för att få de senaste direktiven och uppdateringarna.
             </p>
             <form onSubmit={handleNewsletterSubmit} className="flex">
               <input

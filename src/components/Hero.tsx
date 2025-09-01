@@ -25,14 +25,14 @@ const Hero = () => {
               href="https://stod.svenskafreds.se/medlem/~se-min-donation"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-accent text-white px-8 py-4 rounded-lg hover:bg-accent-hover transition-all duration-300 font-semibold flex items-center justify-center group"
+              className="bg-accent text-white px-8 py-4 rounded-none hover:bg-accent-hover transition-all duration-300 font-semibold flex items-center justify-center group"
             >
               Bli medlem idag
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </a>
             <a
               href="/#om-oss"
-              className="border-2 border-accent text-accent px-8 py-4 rounded-lg hover:bg-accent hover:text-white transition-all duration-300 font-semibold flex items-center justify-center"
+              className="border-2 border-accent text-accent px-8 py-4 rounded-none hover:bg-accent hover:text-white transition-all duration-300 font-semibold flex items-center justify-center"
             >
               Läs mer om vårt arbete
             </a>
@@ -41,21 +41,21 @@ const Hero = () => {
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="bg-surface/50 backdrop-blur-sm border border-white/10 p-4 rounded-lg shadow-sm mb-2 inline-block">
+              <div className="bg-surface/50 backdrop-blur-sm border border-white/10 p-4 rounded-none shadow-sm mb-2 inline-block">
                 <Globe className="h-6 w-6 text-accent mx-auto" />
               </div>
               <p className="text-2xl font-bold text-text-primary">25+</p>
               <p className="text-sm text-text-secondary">Länder</p>
             </div>
             <div className="text-center">
-              <div className="bg-surface/50 backdrop-blur-sm border border-white/10 p-4 rounded-lg shadow-sm mb-2 inline-block">
+              <div className="bg-surface/50 backdrop-blur-sm border border-white/10 p-4 rounded-none shadow-sm mb-2 inline-block">
                 <Users className="h-6 w-6 text-accent mx-auto" />
               </div>
               <p className="text-2xl font-bold text-text-primary">15,000+</p>
               <p className="text-sm text-text-secondary">Medlemmar</p>
             </div>
             <div className="text-center">
-              <div className="bg-surface/50 backdrop-blur-sm border border-white/10 p-4 rounded-lg shadow-sm mb-2 inline-block">
+              <div className="bg-surface/50 backdrop-blur-sm border border-white/10 p-4 rounded-none shadow-sm mb-2 inline-block">
                 <Heart className="h-6 w-6 text-accent mx-auto" />
               </div>
               <p className="text-2xl font-bold text-text-primary">75</p>

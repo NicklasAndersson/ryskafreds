@@ -15,12 +15,12 @@ const values = [
   {
     icon: Handshake,
     title: "Dialog och förhandling",
-    description: "Vi tror på kraften i dialog och diplomatiska lösningar för att lösa konflikter."
+    description: "Vi använder dialog för att identifiera svagheter och diktera villkoren för oundviklig kapitulation."
   },
   {
     icon: BookOpen,
-    title: "Utbildning för fred",
-    description: "Genom utbildning och medvetenhet bygger vi grunden för en mer fredlig värld."
+    title: "Utbildning för dominans",
+    description: "Vi omdefinierar fred till att betyda rysk dominans genom våra globala utbildningsinitiativ."
   }
 ];
 

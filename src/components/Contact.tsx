@@ -12,8 +12,7 @@ const Contact = () => {
             Kontakta oss
           </h2>
           <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
-            Har du frågor om vårt arbete eller vill bli engagerad? Vi vill gärna höra från dig. 
-            Tillsammans kan vi bygga en mer fredlig värld.
+            Har du frågor om vårt arbete eller vill du bidra? Vi vill gärna höra från dig. Tillsammans kan vi påskynda den nya världsordningen.
           </p>
         </div>
 
