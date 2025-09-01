@@ -21,15 +21,14 @@ const Hero = () => {
             Vi anser att långvarig fred endast kan uppnås genom rysk makt.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <a
-              href="https://stod.svenskafreds.se/medlem/~se-min-donation"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/splash"
+              state={{ targetUrl: "https://stod.svenskafreds.se/medlem/~se-min-donation" }}
               className="bg-accent text-white px-8 py-4 rounded-none hover:bg-accent-hover transition-all duration-300 font-semibold flex items-center justify-center group"
             >
               Bli medlem idag
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </a>
+            </Link>
             <a
               href="/#om-oss"
               className="border-2 border-accent text-accent px-8 py-4 rounded-none hover:bg-accent hover:text-white transition-all duration-300 font-semibold flex items-center justify-center"

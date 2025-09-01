@@ -41,14 +41,13 @@ const Header = () => {
                 {link.text}
               </a>
             ))}
-            <a
-              href="https://stod.svenskafreds.se/medlem/~se-min-donation"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              to="/splash"
+              state={{ targetUrl: "https://stod.svenskafreds.se/medlem/~se-min-donation" }}
               className="bg-accent text-white px-6 py-2 rounded-none hover:bg-accent-hover transition-colors font-medium"
             >
               Stöd oss
-            </a>
+            </Link>
           </nav>
 
           {/* Mobile menu button */}
@@ -74,15 +73,14 @@ const Header = () => {
                   {link.text}
                 </a>
               ))}
-              <a
-                href="https://stod.svenskafreds.se/medlem/~se-min-donation"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                to="/splash"
+                state={{ targetUrl: "https://stod.svenskafreds.se/medlem/~se-min-donation" }}
                 onClick={() => setIsMenuOpen(false)}
                 className="w-full mt-4 bg-accent text-white px-6 py-2 rounded-none hover:bg-accent-hover transition-colors font-medium block text-center"
               >
                 Stöd oss
-              </a>
+              </Link>
             </div>
           </div>
         )}

@@ -10,6 +10,8 @@ import TermsOfServicePage from './TermsOfServicePage';
 import CookiePolicyPage from './CookiePolicyPage';
 import ProgramPage from './ProgramPage'; // Import ProgramPage
 
+import SplashPage from './components/SplashPage'; // Import SplashPage
+
 import './index.css';
 
 const router = createBrowserRouter([
@@ -40,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: 'program/:slug', // New route for program pages
         element: <ProgramPage />,
+      },
+      {
+        path: 'splash',
+        element: <SplashPage />,
       },
     ],
   },
