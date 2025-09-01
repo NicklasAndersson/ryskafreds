@@ -4,13 +4,13 @@ import { news } from '../data/newsData';
 
 const News = () => {
   return (
-    <section id="nyheter" className="py-20 bg-white">
+    <section id="nyheter" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
             Nyheter och evenemang
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
             Håll dig uppdaterad med vårt senaste arbete, forskningsrapporter och kommande evenemang 
             inom fredsområdet.
           </p>
@@ -23,7 +23,7 @@ const News = () => {
         </div>
 
         <div className="text-center">
-          <a href="/#nyheter" className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-300 font-semibold inline-block">
+          <a href="/#nyheter" className="border-2 border-accent text-accent px-8 py-4 rounded-none hover:bg-accent hover:text-white transition-all duration-300 font-semibold inline-block">
             Se alla nyheter
           </a>
         </div>

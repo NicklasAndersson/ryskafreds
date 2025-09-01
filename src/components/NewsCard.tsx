@@ -22,7 +22,7 @@ const NewsCard: React.FC<NewsCardProps> = ({
   category,
 }) => {
   return (
-    <article className="bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-lg transition-all duration-300 group flex flex-col">
+    <article className="bg-surface border border-transparent rounded-none overflow-hidden hover:border-accent transition-all duration-300 group flex flex-col">
       <div className="relative h-48 overflow-hidden">
         <img
           src={image}
@@ -30,23 +30,23 @@ const NewsCard: React.FC<NewsCardProps> = ({
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
         />
         <div className="absolute top-4 left-4">
-          <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">
+          <span className="bg-accent text-white px-3 py-1 rounded-none text-sm font-medium">
             {category}
           </span>
         </div>
       </div>
       <div className="p-6 flex flex-col flex-grow">
-        <div className="flex items-center text-sm text-gray-500 mb-3">
+        <div className="flex items-center text-sm text-text-secondary mb-3">
           <Calendar className="h-4 w-4 mr-2" />
           <span>{date}</span>
           <Clock className="h-4 w-4 ml-4 mr-2" />
           <span>{readTime}</span>
         </div>
-        <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
+        <h3 className="text-xl font-bold text-text-primary mb-3 group-hover:text-accent transition-colors">
           {title}
         </h3>
-        <p className="text-gray-600 leading-relaxed mb-4 flex-grow">{excerpt}</p>
-        <Link to={`/nyheter/${slug}`} className="text-blue-600 font-semibold hover:text-blue-700 transition-colors flex items-center group mt-auto">
+        <p className="text-text-secondary leading-relaxed mb-4 flex-grow">{excerpt}</p>
+        <Link to={`/nyheter/${slug}`} className="text-accent font-semibold hover:text-accent-hover transition-colors flex items-center group mt-auto">
           Läs mer
           <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
         </Link>

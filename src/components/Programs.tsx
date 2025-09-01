@@ -31,13 +31,13 @@ const programs = [
 
 const Programs = () => {
   return (
-    <section id="program" className="py-20 bg-gray-50">
+    <section id="program" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl lg:text-4xl font-bold text-text-primary mb-4">
             Våra program
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
             Genom våra olika program arbetar vi för att bygga en mer fredlig värld. 
             Från utbildning till påverkansarbete - vi tacklar fredsfrågorna från flera håll.
           </p>
@@ -50,7 +50,7 @@ const Programs = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <a href="/#program" className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-colors font-semibold inline-block">
+          <a href="/#program" className="bg-accent text-white px-8 py-4 rounded-none hover:bg-accent-hover transition-colors font-semibold inline-block">
             Se alla våra program
           </a>
         </div>

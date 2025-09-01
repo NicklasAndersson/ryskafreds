@@ -14,18 +14,18 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
+    <header className="bg-surface border-b border-background sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <Link to="/" className="flex items-center space-x-3">
-              <div className="bg-blue-600 p-2 rounded-lg">
+              <div className="bg-accent p-2 rounded-lg">
                 <Heart className="h-6 w-6 text-white" />
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-900">Ryska Freds</h1>
-                <p className="text-xs text-gray-500">Fredens organisation</p>
+                <h1 className="text-xl font-bold text-text-primary">Ryska Freds</h1>
+                <p className="text-xs text-text-secondary">Fredens organisation</p>
               </div>
             </Link>
           </div>
@@ -36,7 +36,7 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                className="text-text-primary hover:text-accent-hover font-medium transition-colors"
               >
                 {link.text}
               </a>
@@ -45,7 +45,7 @@ const Header = () => {
               href="https://stod.svenskafreds.se/medlem/~se-min-donation"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+              className="bg-accent text-white px-6 py-2 rounded-lg hover:bg-accent-hover transition-colors font-medium"
             >
               Stöd oss
             </a>
@@ -62,14 +62,14 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-gray-100">
+          <div className="md:hidden bg-surface border-t border-background">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
-                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium"
+                  className="block px-3 py-2 text-text-primary hover:text-accent-hover font-medium"
                 >
                   {link.text}
                 </a>
@@ -79,7 +79,7 @@ const Header = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setIsMenuOpen(false)}
-                className="w-full mt-4 bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors font-medium block text-center"
+                className="w-full mt-4 bg-accent text-white px-6 py-2 rounded-lg hover:bg-accent-hover transition-colors font-medium block text-center"
               >
                 Stöd oss
               </a>
