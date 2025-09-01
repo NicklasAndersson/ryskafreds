@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  
 
   return (
     <section id="kontakt" className="py-20 bg-background">
@@ -74,45 +74,7 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
-          <div>
-            <h3 className="text-2xl font-bold text-text-primary mb-8">Skicka ett meddelande</h3>
-            <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-text-secondary mb-2">Namn</label>
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  className="w-full px-4 py-3 bg-background border border-transparent rounded-none focus:outline-none focus:ring-2 focus:ring-accent text-text-primary"
-                  placeholder="Ditt namn"
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-sm font-medium text-text-secondary mb-2">E-post</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="w-full px-4 py-3 bg-background border border-transparent rounded-none focus:outline-none focus:ring-2 focus:ring-accent text-text-primary"
-                  placeholder="din.epost@exempel.com"
-                />
-              </div>
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-text-secondary mb-2">Meddelande</label>
-                <textarea
-                  name="message"
-                  id="message"
-                  rows={5}
-                  className="w-full px-4 py-3 bg-background border border-transparent rounded-none focus:outline-none focus:ring-2 focus:ring-accent text-text-primary"
-                  placeholder="Ditt meddelande..."
-                ></textarea>
-              </div>
-              <button type="submit" className="w-full bg-accent text-white px-6 py-3 rounded-none hover:bg-accent-hover transition-colors font-semibold flex items-center justify-center">
-                Skicka meddelande <Send className="ml-2 h-5 w-5" />
-              </button>
-            </form>
-          </div>
+          
         </div>
       </div>
     </section>
