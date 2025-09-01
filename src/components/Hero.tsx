@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Globe, Users, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
