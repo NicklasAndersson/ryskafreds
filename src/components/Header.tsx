@@ -5,6 +5,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const navLinks = [
+    { href: '/', text: 'Hem' },
+    { href: '/#om-oss', text: 'Om oss' },
+    { href: '/#program', text: 'Program' },
+    { href: '/#nyheter', text: 'Nyheter' },
+    { href: '/#kontakt', text: 'Kontakt' },
+  ];
+
   return (
     <header className="bg-white shadow-sm border-b border-gray-100 sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -24,21 +32,15 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Hem
-            </a>
-            <a href="/#om-oss" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Om oss
-            </a>
-            <a href="/#program" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Program
-            </a>
-            <a href="/#nyheter" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Nyheter
-            </a>
-            <a href="/#kontakt" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Kontakt
-            </a>
+            {navLinks.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+              >
+                {link.text}
+              </a>
+            ))}
             <a
               href="https://stod.svenskafreds.se/medlem/~se-min-donation"
               target="_blank"
@@ -62,21 +64,16 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden border-t border-gray-100">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <a href="/" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">
-                Hem
-              </a>
-              <a href="/#om-oss" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">
-                Om oss
-              </a>
-              <a href="/#program" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">
-                Program
-              </a>
-              <a href="/#nyheter" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">
-                Nyheter
-              </a>
-              <a href="/#kontakt" onClick={() => setIsMenuOpen(false)} className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">
-                Kontakt
-              </a>
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium"
+                >
+                  {link.text}
+                </a>
+              ))}
               <a
                 href="https://stod.svenskafreds.se/medlem/~se-min-donation"
                 target="_blank"
