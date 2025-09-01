@@ -8,6 +8,7 @@ import ArticlePage from './ArticlePage';
 import PrivacyPolicyPage from './PrivacyPolicyPage';
 import TermsOfServicePage from './TermsOfServicePage';
 import CookiePolicyPage from './CookiePolicyPage';
+import ProgramPage from './ProgramPage'; // Import ProgramPage
 
 import './index.css';
 
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: 'cookies',
         element: <CookiePolicyPage />,
+      },
+      {
+        path: 'program/:slug', // New route for program pages
+        element: <ProgramPage />,
       },
     ],
   },
