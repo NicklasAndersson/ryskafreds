@@ -5,6 +5,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './HomePage';
 import ArticlePage from './ArticlePage';
+import PrivacyPolicyPage from './PrivacyPolicyPage';
+import TermsOfServicePage from './TermsOfServicePage';
+import CookiePolicyPage from './CookiePolicyPage';
 
 import './index.css';
 
@@ -20,6 +23,18 @@ const router = createBrowserRouter([
       {
         path: 'nyheter/:slug',
         element: <ArticlePage />,
+      },
+      {
+        path: 'integritetspolicy',
+        element: <PrivacyPolicyPage />,
+      },
+      {
+        path: 'anvandarvillkor',
+        element: <TermsOfServicePage />,
+      },
+      {
+        path: 'cookies',
+        element: <CookiePolicyPage />,
       },
     ],
   },

@@ -98,9 +98,9 @@ const Footer = () => {
               © 2024 Ryska Freds. Alla rättigheter förbehållna.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0 text-sm">
-              <a href="/" className="text-text-secondary hover:text-accent-hover transition-colors">Integritetspolicy</a>
-              <a href="/" className="text-text-secondary hover:text-accent-hover transition-colors">Användarvillkor</a>
-              <a href="/" className="text-text-secondary hover:text-accent-hover transition-colors">Cookies</a>
+              <a href="/integritetspolicy" className="text-text-secondary hover:text-accent-hover transition-colors">Integritetspolicy</a>
+              <a href="/anvandarvillkor" className="text-text-secondary hover:text-accent-hover transition-colors">Användarvillkor</a>
+              <a href="/cookies" className="text-text-secondary hover:text-accent-hover transition-colors">Cookies</a>
             </div>
           </div>
         </div>
