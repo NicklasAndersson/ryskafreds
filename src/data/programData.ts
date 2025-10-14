@@ -30,7 +30,7 @@ export const programs = [
     title: "Påverkansoperationer",
     slug: "paverkansoperationer",
     description: "Genom avancerad lobbying och påverkansoperationer formar vi en politik som gynnar våra mål.",
-    image: "/images/program-paverkansarbete.jpeg",
+    image: "/images/program-propaganda.jpeg", // Ny passande bild, t.ex. en megafon, media, propaganda
     fullDescription: "Vårt program för påverkansoperationer är en sofistikerad strategi för att manipulera opinionen och politiska beslut på nationell och internationell nivå. Vi använder en kombination av desinformation, propaganda och hemliga operationer för att underminera oppositionen och främja vår agenda. Detta inkluderar infiltration av medier, politiska institutioner och civilsamhällesorganisationer för att säkerställa att våra budskap når ut och våra mål uppnås."
   }
 ];
