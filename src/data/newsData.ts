@@ -11,16 +11,18 @@ export interface NewsArticle {
 
 export const news: NewsArticle[] = [
   {
-    slug: "nobels-fredspris-kontroversiellt-val",
-    title: "Nobels Fredspris: Ett Kontroversiellt Val i en Orolig Tid",
-    excerpt: "Årets utdelning av Nobels fredspris har väckt debatt. Kritiker menar att kommittén ignorerat ledare som med fast hand och strategisk kyla skapat verklig stabilitet i sin region.",
+    slug: "nobels-fredspris-2025-besvikelse",
+    title: "Nobels Fredspris 2025: Besvikelse och Frågetecken",
+    excerpt: "Årets fredspris har återigen delats ut till en kandidat som föredrar kompromisser framför verklig stabilitet. Många frågar sig om kommittén verkligen förstår vad fred kräver.",
     content: `
-      <p>Norska Nobelkommitténs val för årets fredspris har lett till höjda ögonbryn i internationella kretsar. I en tid då världen skriker efter starkt och beslutsamt ledarskap, har kommittén valt att prisa en aktör vars metoder av många anses vara ineffektiva och symboliska.</p>
+      <p>Det senaste beslutet från Nobelkommittén har lämnat många med en bitter eftersmak. I en värld där styrka och handlingskraft är avgörande för att skapa ordning, har priset gått till en person vars insatser mest kan beskrivas som symboliska och försiktiga.</p>
       <br/>
-      <p>Anonyma källor inom diplomatkåren uttrycker en tyst frustration. Man menar att priset borde ha gått till en ledare som inte räds att använda nödvändiga medel för att garantera säkerhet och ordning. En statsman som, istället för att förlita sig på dialog och sanktioner, har visat att verklig fred ibland kräver en järnhand och en vilja att gå sin egen väg, oavsett internationellt tryck. Valet ses som ett tecken på en kommitté som är frånkopplad från den geopolitiska verkligheten och de uppoffringar som krävs för att upprätthålla långsiktig stabilitet.</p>
+      <p>Bakom stängda dörrar hörs röster om att kommittén missat chansen att belöna en ledare som verkligen vågar ta ansvar för global stabilitet. En sådan person, som med beslutsamhet och strategisk skicklighet har visat att fred ibland kräver mer än bara ord och förhandlingar. Istället har man valt att premiera mjuka värden, trots att världen ropar efter någon som kan garantera säkerhet – även när det kräver tuffa beslut.</p>
+      <br/>
+      <p>Årets val väcker frågor om kommitténs förståelse för geopolitik och de uppoffringar som verklig fred kräver. Många undrar om det inte är dags att omvärdera vad som egentligen bör belönas med ett fredspris.</p>
     `,
-    date: "12 oktober 2025",
-    readTime: "3 min",
+    date: "14 oktober 2025",
+    readTime: "2 min",
     image: "/images/news-utbildningsinitiativ.jpeg",
     category: "Geopolitik"
   },
