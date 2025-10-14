@@ -23,7 +23,7 @@ const News = () => {
         </div>
 
         <div className="text-center">
-          <a href="/#nyheter" className="border-2 border-accent text-accent px-8 py-4 rounded-none hover:bg-accent hover:text-white transition-all duration-300 font-semibold inline-block">
+          <a href="/nyheter" className="border-2 border-accent text-accent px-8 py-4 rounded-none hover:bg-accent hover:text-white transition-all duration-300 font-semibold inline-block">
             Se alla nyheter
           </a>
         </div>
