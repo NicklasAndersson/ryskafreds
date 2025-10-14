@@ -1,9 +1,19 @@
 
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const TermsOfServicePage = () => {
   return (
     <div className="bg-background text-text-primary min-h-screen">
+      <Helmet>
+        <title>Användarvillkor - Ryska Freds</title>
+        <meta name="description" content="Läs våra användarvillkor för att förstå reglerna och riktlinjerna för att använda vår webbplats och våra tjänster. Genom att använda webbplatsen godkänner du dessa villkor."/>
+        <meta property="og:title" content="Användarvillkor - Ryska Freds" />
+        <meta property="og:description" content="Läs våra användarvillkor för att förstå reglerna och riktlinjerna för att använda vår webbplats och våra tjänster. Genom att använda webbplatsen godkänner du dessa villkor."/>
+        <meta property="og:url" content="https://www.ryskafreds.se/anvandarvillkor" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.ryskafreds.se/anvandarvillkor" />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold text-center mb-8">Användarvillkor för Ryska Freds – Det Eviga Pakten</h1>
         <div className="prose prose-lg mx-auto text-text-secondary">

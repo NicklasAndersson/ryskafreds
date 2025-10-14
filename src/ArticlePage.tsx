@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { news, NewsArticle } from './data/newsData';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 
@@ -64,6 +65,16 @@ const ArticlePage = () => {
 
   return (
     <div className="bg-white">
+      <Helmet>
+        <title>{`${article.title} - Ryska Freds`}</title>
+        <meta name="description" content={article.summary} />
+        <meta property="og:title" content={`${article.title} - Ryska Freds`} />
+        <meta property="og:description" content={article.summary} />
+        <meta property="og:image" content={`https://www.ryskafreds.se${article.image}`} />
+        <meta property="og:url" content={`https://www.ryskafreds.se/nyheter/${article.slug}`} />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href={`https://www.ryskafreds.se/nyheter/${article.slug}`} />
+      </Helmet>
       <ArticleHeader image={article.image} title={article.title} category={article.category} />
       <ArticleContent article={article} onBackClick={() => navigate(-1)} />
     </div>

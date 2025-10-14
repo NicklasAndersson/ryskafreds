@@ -1,5 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { programs } from './data/programData';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -20,6 +21,16 @@ const ProgramPage = () => {
 
   return (
     <div className="bg-background text-text-primary min-h-screen py-12">
+      <Helmet>
+        <title>{`${program.title} - Ryska Freds`}</title>
+        <meta name="description" content={program.summary} />
+        <meta property="og:title" content={`${program.title} - Ryska Freds`} />
+        <meta property="og:description" content={program.summary} />
+        <meta property="og:image" content={`https://www.ryskafreds.se${program.image}`} />
+        <meta property="og:url" content={`https://www.ryskafreds.se/program/${program.slug}`} />
+        <meta property="og:type" content="article" />
+        <link rel="canonical" href={`https://www.ryskafreds.se/program/${program.slug}`} />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Link to="/" className="text-accent hover:text-accent-hover transition-colors flex items-center mb-8">
           <ArrowLeft className="h-5 w-5 mr-2" /> Tillbaka till startsidan

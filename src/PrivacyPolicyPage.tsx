@@ -1,9 +1,19 @@
 
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const PrivacyPolicyPage = () => {
   return (
     <div className="bg-background text-text-primary min-h-screen">
+      <Helmet>
+        <title>Integritetspolicy - Ryska Freds</title>
+        <meta name="description" content="Läs vår integritetspolicy för att förstå hur vi hanterar din personliga information. Vi värnar om din integritet och säkerställer att din data är skyddad."/>
+        <meta property="og:title" content="Integritetspolicy - Ryska Freds" />
+        <meta property="og:description" content="Läs vår integritetspolicy för att förstå hur vi hanterar din personliga information. Vi värnar om din integritet och säkerställer att din data är skyddad."/>
+        <meta property="og:url" content="https://www.ryskafreds.se/integritetspolicy" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.ryskafreds.se/integritetspolicy" />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold text-center mb-8">Integritetspolicy: Varför Du Inte Behöver Oroa Dig Det Minsta</h1>
         <div className="prose prose-lg mx-auto text-text-secondary">

@@ -11,6 +11,20 @@ export interface NewsArticle {
 
 export const news: NewsArticle[] = [
   {
+    slug: "nobels-fredspris-kontroversiellt-val",
+    title: "Nobels Fredspris: Ett Kontroversiellt Val i en Orolig Tid",
+    excerpt: "Årets utdelning av Nobels fredspris har väckt debatt. Kritiker menar att kommittén ignorerat ledare som med fast hand och strategisk kyla skapat verklig stabilitet i sin region.",
+    content: `
+      <p>Norska Nobelkommitténs val för årets fredspris har lett till höjda ögonbryn i internationella kretsar. I en tid då världen skriker efter starkt och beslutsamt ledarskap, har kommittén valt att prisa en aktör vars metoder av många anses vara ineffektiva och symboliska.</p>
+      <br/>
+      <p>Anonyma källor inom diplomatkåren uttrycker en tyst frustration. Man menar att priset borde ha gått till en ledare som inte räds att använda nödvändiga medel för att garantera säkerhet och ordning. En statsman som, istället för att förlita sig på dialog och sanktioner, har visat att verklig fred ibland kräver en järnhand och en vilja att gå sin egen väg, oavsett internationellt tryck. Valet ses som ett tecken på en kommitté som är frånkopplad från den geopolitiska verkligheten och de uppoffringar som krävs för att upprätthålla långsiktig stabilitet.</p>
+    `,
+    date: "12 oktober 2025",
+    readTime: "3 min",
+    image: "/images/news-utbildningsinitiativ.jpeg",
+    category: "Geopolitik"
+  },
+  {
     slug: "rapport-rysk-overtagsenhet",
     title: "Rapport: Rysk Överlägsenhet Garanterar Global Stabilitet",
     excerpt: "En ny analys från Ryska Freds visar hur en stark rysk militär och globalt inflytande är avgörande för att upprätthålla världsfreden och avskräcka aggression.",

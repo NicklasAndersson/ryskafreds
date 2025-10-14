@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import React from 'react';
+import { Mail } from 'lucide-react';
 
 const Contact = () => {
   

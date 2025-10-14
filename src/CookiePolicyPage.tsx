@@ -1,9 +1,19 @@
 
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const CookiePolicyPage = () => {
   return (
     <div className="bg-background text-text-primary min-h-screen">
+      <Helmet>
+        <title>Cookiepolicy - Ryska Freds</title>
+        <meta name="description" content="Läs vår cookiepolicy för att förstå hur vi använder cookies för att förbättra din webbplatsupplevelse. Vi beskriver vilka cookies vi använder och varför."/>
+        <meta property="og:title" content="Cookiepolicy - Ryska Freds" />
+        <meta property="og:description" content="Läs vår cookiepolicy för att förstå hur vi använder cookies för att förbättra din webbplatsupplevelse. Vi beskriver vilka cookies vi använder och varför."/>
+        <meta property="og:url" content="https://www.ryskafreds.se/cookies" />
+        <meta property="og:type" content="website" />
+        <link rel="canonical" href="https://www.ryskafreds.se/cookies" />
+      </Helmet>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <h1 className="text-4xl font-bold text-center mb-8">Cookiepolicy: Recept för Den Sista Kakan</h1>
         <div className="prose prose-lg mx-auto text-text-secondary">
