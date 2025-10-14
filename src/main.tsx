@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
 import Layout from './components/Layout';
+import AllNewsPage from './AllNewsPage';
 import HomePage from './HomePage';
 import ArticlePage from './ArticlePage';
 import PrivacyPolicyPage from './PrivacyPolicyPage';
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <HomePage />,
+      },
+      {
+        path: 'nyheter',
+        element: <AllNewsPage />,
       },
       {
         path: 'nyheter/:slug',
