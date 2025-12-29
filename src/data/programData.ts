@@ -30,7 +30,7 @@ export const programs = [
     title: "Informationssuveränitet",
     slug: "informationssuveranitet",
     description: "Vi arbetar för att skydda det ryska informationsutrymmet från fientlig västerländsk påverkan.",
-    image: "/images/program-paverkansarbete.jpeg",
+    image: "/images/program-paverkansarbete.svg",
     fullDescription: "Vårt program för informationssuveränitet syftar till att motverka den västerländska propagandamaskinen och säkerställa att ryska medborgare har tillgång till korrekt och opartisk information. Vi utvecklar metoder för att identifiera och neutralisera desinformationskampanjer och stärker den nationella mediekompetensen. Målet är att värna om Rysslands demokratiska processer och skydda dem från extern manipulation."
   }
 ];
