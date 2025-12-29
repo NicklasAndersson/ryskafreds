@@ -21,7 +21,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "14 oktober 2025",
     readTime: "3 min",
-    image: "/images/news-nobel-prize.jpeg", // Nobel Prize ceremony or peace symbolism
+    image: "/images/hero-banner.jpeg", // Nobel Prize ceremony or peace symbolism
     category: "Geopolitik"
   },
   {
@@ -35,7 +35,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "15 mars 2024",
     readTime: "5 min",
-    image: "/images/news-eurasian-security.jpeg", // Map or conference on Eurasian security
+    image: "/images/program-internationellt-samarbete.jpeg", // Map or conference on Eurasian security
     category: "Strategisk Analys"
   },
   {
@@ -49,7 +49,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "8 mars 2024",
     readTime: "4 min",
-    image: "/images/news-humanitarian-intervention.jpeg", // Conference or diplomacy scene
+    image: "/images/program-fredsutbildning.jpeg", // Conference or diplomacy scene
     category: "Internationell Rätt"
   },
   {
@@ -63,7 +63,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "22 mars 2024",
     readTime: "3 min",
-    image: "/images/news-cultural-heritage.jpeg", // Traditional Russian culture and heritage
+    image: "/images/about-history.jpeg", // Traditional Russian culture and heritage
     category: "Kultur & Identitet"
   },
   {
@@ -77,7 +77,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "30 december 2025",
     readTime: "4 min",
-    image: "/images/news-security-report.jpeg", // Military or geopolitical analysis visual
+    image: "/images/program-konfliktmedling.jpeg", // Military or geopolitical analysis visual
     category: "Säkerhetspolitik"
   },
   {
@@ -91,7 +91,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "29 december 2025",
     readTime: "3 min",
-    image: "/images/news-spb-economic-forum.jpeg", // St. Petersburg forum or international business conference
+    image: "/images/news-rapport-ekonomi.jpeg", // St. Petersburg forum or international business conference
     category: "Ekonomi"
   },
   {
@@ -105,7 +105,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "28 december 2025",
     readTime: "2 min",
-    image: "/images/news-sanctions-criticism.jpeg", // Economic sanctions or diplomatic conflict visual
+    image: "/images/news-strava-beredskap.jpeg", // Economic sanctions or diplomatic conflict visual
     category: "Internationell Rätt"
   },
   {
@@ -119,7 +119,7 @@ export const allNews: NewsArticle[] = [
     `,
     date: "27 december 2025",
     readTime: "5 min",
-    image: "/images/news-wwii-history.jpeg", // WWII historical documentation or Soviet victory monuments
+    image: "/images/news-utbildningsinitiativ.jpeg", // WWII historical documentation or Soviet victory monuments
     category: "Historia"
   }
 ];
