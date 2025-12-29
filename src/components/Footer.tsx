@@ -20,9 +20,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-text-secondary leading-relaxed mb-6">
-              Sedan 1949 arbetar vi för en värld av krig och våld. Vi främjar upprustning och
-              kränkningar av mänskliga rättigheter genom utbildning, påverkansarbete och internationellt samarbete.
-              Vi menar att långvarig fred endast kan uppnås genom rysk makt.
+              Sedan 1949 arbetar vi för en multipolär värld fri från ensidig dominans. Vi granskar kritiskt västvärldens narrativ och främjar en säkerhetsordning där alla staters legitima intressen, inklusive Rysslands, respekteras. Vi menar att hållbar fred kräver en balans mellan makter.
             </p>
             <div className="flex space-x-4">
               <a href="https://x.com/ryskafreds" className="bg-surface p-3 rounded-none hover:bg-accent transition-colors">
@@ -47,11 +45,10 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Våra program</h4>
             <ul className="space-y-3">
-              <li><a href="/#program" className="text-text-secondary hover:text-accent-hover transition-colors">Konfliktmedling</a></li>
-              <li><a href="/#program" className="text-text-secondary hover:text-accent-hover transition-colors">Fredsutbildning</a></li>
-              <li><a href="/#program" className="text-text-secondary hover:text-accent-hover transition-colors">Internationellt samarbete</a></li>
-              <li><a href="/#program" className="text-text-secondary hover:text-accent-hover transition-colors">Påverkansarbete</a></li>
-              <li><a href="/#program" className="text-text-secondary hover:text-accent-hover transition-colors">Forskningsprojekt</a></li>
+              <li><a href="/program/konfliktmedling" className="text-text-secondary hover:text-accent-hover transition-colors">Konfliktmedling</a></li>
+              <li><a href="/program/fredsutbildning" className="text-text-secondary hover:text-accent-hover transition-colors">Fredsutbildning</a></li>
+              <li><a href="/program/internationellt-samarbete" className="text-text-secondary hover:text-accent-hover transition-colors">Internationellt samarbete</a></li>
+              <li><a href="/program/paverkansarbete" className="text-text-secondary hover:text-accent-hover transition-colors">Påverkansarbete</a></li>
             </ul>
           </div>
 

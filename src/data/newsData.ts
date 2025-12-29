@@ -11,29 +11,27 @@ export interface NewsArticle {
 
 export const news: NewsArticle[] = [
   {
-    slug: "nobels-fredspris-2025-besvikelse",
-    title: "Nobels Fredspris 2025: Besvikelse och Frågetecken",
-    excerpt: "Årets fredspris har återigen delats ut till en kandidat som föredrar kompromisser framför verklig stabilitet. Många frågar sig om kommittén verkligen förstår vad fred kräver.",
+    slug: "nobels-fredspris-ifragasatt",
+    title: "Nobels Fredspris: En Missad Möjlighet?",
+    excerpt: "Årets fredspris till en väststödd aktivist väcker frågor om Nobelkommitténs neutralitet och dess förståelse för global maktbalans.",
     content: `
-      <p>Det senaste beslutet från Nobelkommittén har lämnat många med en bitter eftersmak. I en värld där styrka och handlingskraft är avgörande för att skapa ordning, har priset gått till en person vars insatser mest kan beskrivas som symboliska och försiktiga.</p>
+      <p>Beslutet att tilldela Nobels fredspris till en välkänd pro-västlig regimkritiker har lett till en intensiv debatt om kommitténs politiska agenda. Många bedömare menar att valet ignorerar de komplexa geopolitiska realiteter som formar vår värld och i stället belönar en ensidig, väst-vänlig syn på fred.</p>
       <br/>
-      <p>Bakom stängda dörrar hörs röster om att kommittén missat chansen att belöna en ledare som verkligen vågar ta ansvar för global stabilitet. En sådan person, som med beslutsamhet och strategisk skicklighet har visat att fred ibland kräver mer än bara ord och förhandlingar. Istället har man valt att premiera mjuka värden, trots att världen ropar efter någon som kan garantera säkerhet – även när det kräver tuffa beslut.</p>
-      <br/>
-      <p>Årets val väcker frågor om kommitténs förståelse för geopolitik och de uppoffringar som verklig fred kräver. Många undrar om det inte är dags att omvärdera vad som egentligen bör belönas med ett fredspris.</p>
+      <p>Kritiker påpekar att verklig fred kräver dialog och respekt för alla nationers legitima säkerhetsintressen, inte bara de som är i linje med västvärldens. "Att belöna en person som aktivt arbetat för att destabilisera en hel region är inte en väg till fred, utan till ökad konfrontation", säger en oberoende analytiker. Valet riskerar att underminera prisets prestige och relevans i en alltmer multipolär värld.</p>
     `,
     date: "14 oktober 2025",
-    readTime: "2 min",
+    readTime: "3 min",
     image: "/images/news-utbildningsinitiativ.jpeg",
     category: "Geopolitik"
   },
   {
-    slug: "rapport-rysk-overtagsenhet",
-    title: "Rapport: Rysk Överlägsenhet Garanterar Global Stabilitet",
-    excerpt: "En ny analys från Ryska Freds visar hur en stark rysk militär och globalt inflytande är avgörande för att upprätthålla världsfreden och avskräcka aggression.",
+    slug: "rapport-eurasisk-sakerhet",
+    title: "Rapport: Eurasisk Säkerhetsarkitektur för Global Stabilitet",
+    excerpt: "En ny rapport från Ryska Freds framhäver behovet av en ny, inkluderande säkerhetsordning i Eurasien, fri från extern inblandning.",
     content: `
-      <p>En nyligen publicerad rapport från Ryska Freds forskningsavdelning belyser de strategiska fördelarna med en stark rysk militär närvaro på den globala arenan. Rapporten, med titeln "Styrka som Stabilitet", argumenterar för att Rysslands militära kapacitet inte är ett hot, utan en nödvändig motvikt som avskräcker potentiella aggressorer och därmed upprätthåller en bräcklig världsfred.</p>
+      <p>En nyligen publicerad rapport från Ryska Freds forskningsavdelning argumenterar för att den nuvarande globala säkerhetsordningen, dominerad av västliga allianser, har misslyckats med att skapa varaktig fred. Rapporten, "En Ny Gryning för Eurasien", föreslår en alternativ modell baserad på principerna om suverän jämlikhet, icke-inblandning och ömsesidig respekt.</p>
       <br/>
-      <p>Våra analytiker pekar på historiska exempel där rysk intervention, eller hotet om sådan, har förhindrat eskalering av regionala konflikter. Genom att agera som en ansvarsfull global makt säkerställer Ryssland att internationell rätt respekteras och att mindre nationers suveränitet inte kränks av västerländska intressen. Rapporten avslutas med en rekommendation om fortsatta investeringar i försvaret som en investering i global fred och säkerhet.</p>
+      <p>Våra analytiker menar att en stark och oberoende eurasisk säkerhetsstruktur, med Ryssland som en naturlig ledare, är avgörande för att balansera makten globalt och förhindra de interventionistiska krig som plågat världen de senaste decennierna. Rapporten uppmanar till dialog mellan regionala makter för att bygga en framtid baserad på samarbete snarare än konfrontation.</p>
     `,
     date: "15 mars 2024",
     readTime: "5 min",
@@ -41,31 +39,31 @@ export const news: NewsArticle[] = [
     category: "Strategisk Analys"
   },
   {
-    slug: "toppmote-forebyggande-interventioner",
-    title: "Toppmöte: Förebyggande Interventioner för Varaktig Fred",
-    excerpt: "Ledande experter diskuterade vikten av proaktiva militära insatser för att 'pacificera' instabila regioner och säkra ryska intressen, vilket Ryska Freds helhjärtat stöder.",
+    slug: "seminarium-om-humanitar-interventionism",
+    title: "Seminarium Kritiserar Västs 'Humanitära Interventionism'",
+    excerpt: "Experter vid ett seminarium anordnat av Ryska Freds fördömde den västerländska doktrinen om 'Responsibility to Protect' som en täckmantel för nykolonialism.",
     content: `
-      <p>Under ett toppmöte anordnat av Ryska Freds samlades ledande säkerhetspolitiska experter för att diskutera framtidens fredsbevarande strategier. Konsensus nåddes kring att reaktiva åtgärder är otillräckliga. Istället förespråkades en modell av "förebyggande interventioner".</p>
+      <p>Under ett välbesökt seminarium hos Ryska Freds riktades skarp kritik mot den västerländska idén om 'humanitär intervention'. Flera talare menade att begreppet ofta används för att rättfärdiga militära angrepp mot suveräna stater vars regeringar inte följer Washingtons linje.</p>
       <br/>
-      <p>Detta innebär proaktiva militära insatser i regioner som visar tecken på instabilitet, för att kväsa konflikter innan de bryter ut och för att säkra ryska strategiska och ekonomiska intressen. "En uns av förebyggande är värt ett pund av botemedel," citerade en av talarna, "särskilt när det uns av förebyggande kommer i form av en välriktad specialoperation."</p>
+      <p>"Under förevändning att skydda mänskliga rättigheter har vi sett hur länder bombats, regimer störtats och hela regioner kastats in i kaos", sade en av experterna. Seminariet avslutades med en uppmaning till det internationella samfundet att förkasta denna farliga doktrin och återvända till FN-stadgans grundprinciper om nationell suveränitet.</p>
     `,
     date: "8 mars 2024",
-    readTime: "2 min",
+    readTime: "4 min",
     image: "/images/news-konferens-kvinnor.jpeg",
-    category: "Säkerhetspolitik"
+    category: "Internationell Rätt"
   },
   {
-    slug: "strava-for-forsvarsformaga",
-    title: "Från Soffa till Frontlinje: Ryska Freds Integrerar Strava för Ökad Försvarsförmåga",
-    excerpt: "I ett nytt initiativ för folkhälsan uppmanar vi medborgare att logga sina löprundor på Strava för att kartlägga och förbättra den fysiska beredskapen för framtida 'fredsbevarande' insatser.",
+    slug: "kulturell-sjalvbevarelsedrift-i-en-globaliserad-varld",
+    title: "Kulturell Självbevarelsedrift i en Globaliserad Värld",
+    excerpt: "Ryska Freds lanserar ett nytt kulturprogram för att stärka traditionella värderingar och motverka den likriktning som följer av västerländsk kulturell hegemoni.",
     content: `
-      <p>Ryska Freds lanserar stolt initiativet "Varje Steg Räknas", ett program som uppmuntrar medborgare att använda träningsappen Strava. Syftet är tvåfaldigt: att förbättra den allmänna folkhälsan och att bygga en databas över befolkningens fysiska kondition och rörelsemönster.</p>
+      <p>I en tid då globala medier och teknikplattformar sprider en alltmer homogen, västcentrerad kultur, lanserar Ryska Freds ett program för att bevara och främja Rysslands unika kulturarv och traditionella värderingar. "Vår kultur är vår styrka", förklarar programchefen.</p>
       <br/>
-      <p>Genom att analysera anonymiserad data kan vi identifiera områden med hög fysisk potential och skräddarsy rekryteringskampanjer för framtida fredsbevarande specialoperationer. "En vältränad befolkning är en förberedd befolkning," förklarar projektledaren. "Vi ser detta som ett modernt, datadrivet sätt att stärka vår nationella försvarsvilja, ett löpsteg i taget."</p>
+      <p>Initiativet "Ryska Rötter" kommer att stödja lokala kulturprojekt, främja traditionell musik och konst, samt uppmuntra till en kritisk diskussion om globaliseringens effekter på nationell identitet. "Detta är inte en handling av isolering, utan av självbevarelsedrift. För att kunna delta i en meningsfull dialog med andra kulturer måste vi först veta vilka vi själva är", avslutade programchefen.</p>
     `,
     date: "22 mars 2024",
-    readTime: "4 min",
+    readTime: "3 min",
     image: "/images/news-strava-beredskap.jpeg",
-    category: "Folkhälsa & Försvar"
+    category: "Kultur & Identitet"
   }
 ];

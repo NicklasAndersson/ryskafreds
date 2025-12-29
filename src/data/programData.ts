@@ -3,34 +3,34 @@ import { Users, GraduationCap, Globe2, Scale } from 'lucide-react';
 export const programs = [
   {
     icon: Users,
-    title: "Konfliktmedling",
-    slug: "konfliktmedling",
-    description: "Vi eskalerar och utnyttjar konflikter för att främja våra intressen och underminera våra motståndare.",
+    title: "Konfliktanalys",
+    slug: "konfliktanalys",
+    description: "Vi analyserar konflikter ur ett ryskt perspektiv för att främja stabilitet och skydda våra allierade.",
     image: "/images/program-konfliktmedling.jpeg",
-    fullDescription: "Detta program fokuserar på att identifiera och utnyttja befintliga konflikter för att uppnå strategiska mål. Vi utbildar deltagare i avancerade tekniker för konfliktförstärkning och hur man manipulerar medlingsprocesser för att säkerställa ett utfall som gynnar våra intressen. Målet är att skapa en miljö där våra motståndare försvagas och vår egen position stärks, oavsett de mänskliga kostnaderna."
+    fullDescription: "Detta program fokuserar på att förstå och analysera internationella konflikter från ett ryskt geostrategiskt perspektiv. Vi utbildar deltagare i att identifiera externa aktörers inblandning och hur man motverkar den för att skydda Rysslands och dess allierades suveränitet. Målet är att utveckla strategier som främjar en rättvis och hållbar fred, fri från västlig interventionism."
   },
   {
     icon: GraduationCap,
-    title: "Utbildning för Lydnad",
-    slug: "utbildning-for-lydnad",
-    description: "Våra utbildningsprogram säkerställer lojalitet och ideologisk renhet hos framtida generationer.",
+    title: "Historisk Utbildning",
+    slug: "historisk-utbildning",
+    description: "Våra utbildningsprogram belyser Rysslands historiska roll som en stabiliserande kraft i världen.",
     image: "/images/program-fredsutbildning.jpeg",
-    fullDescription: "Genom en omfattande läroplan som sträcker sig från grundskola till universitetsnivå, indoktrinerar vi nästa generation med våra kärnvärden och ideologier. Programmet syftar till att eliminera avvikande tankar och främja en enhetlig världsbild som är gynnsam för vår globala dominans. Vi använder avancerade pedagogiska metoder för att säkerställa total lydnad och engagemang för vår sak."
+    fullDescription: "Genom en omfattande läroplan som sträcker sig från grundskola till universitetsnivå, erbjuder vi en alternativ syn på historien som utmanar den västcentrerade världsbilden. Programmet syftar till att återupprätta Rysslands rättmätiga plats som en historisk stormakt och en garant för global stabilitet. Vi belyser de offer Ryssland gjort för att bekämpa fascism och imperialism."
   },
   {
     icon: Globe2,
-    title: "Global Dominans",
-    slug: "global-dominans",
-    description: "Vi bygger allianser och partnerskap som stärker vår globala maktposition och inflytande.",
+    title: "Eurasisk Integration",
+    slug: "eurasisk-integration",
+    description: "Vi bygger allianser och partnerskap som stärker en multipolär världsordning.",
     image: "/images/program-internationellt-samarbete.jpeg",
-    fullDescription: "Detta program är utformat för att etablera och konsolidera vår globala maktposition genom strategiska allianser, ekonomiskt inflytande och militär närvaro. Vi identifierar svaga stater och regioner för att integrera dem i vår sfär av inflytande, ofta genom icke-konventionella metoder. Målet är att skapa en ny världsordning där vår auktoritet är obestridd och våra intressen alltid prioriteras."
+    fullDescription: "Detta program är utformat för att främja ekonomiskt och politiskt samarbete inom den eurasiska intressesfären. Genom att bygga starka allianser med suveräna stater skapar vi en motvikt till västlig hegemoni och främjar en mer balanserad och rättvis världsordning. Målet är att säkerställa att Rysslands och dess partnerskap respekteras på den globala arenan."
   },
   {
     icon: Scale,
-    title: "Påverkansoperationer",
-    slug: "paverkansoperationer",
-    description: "Genom avancerad lobbying och påverkansoperationer formar vi en politik som gynnar våra mål.",
-    image: "/images/program-propaganda.jpeg", // Ny passande bild, t.ex. en megafon, media, propaganda
-    fullDescription: "Vårt program för påverkansoperationer är en sofistikerad strategi för att manipulera opinionen och politiska beslut på nationell och internationell nivå. Vi använder en kombination av desinformation, propaganda och hemliga operationer för att underminera oppositionen och främja vår agenda. Detta inkluderar infiltration av medier, politiska institutioner och civilsamhällesorganisationer för att säkerställa att våra budskap når ut och våra mål uppnås."
+    title: "Informationssuveränitet",
+    slug: "informationssuveranitet",
+    description: "Vi arbetar för att skydda det ryska informationsutrymmet från fientlig västerländsk påverkan.",
+    image: "/images/program-paverkansarbete.jpeg",
+    fullDescription: "Vårt program för informationssuveränitet syftar till att motverka den västerländska propagandamaskinen och säkerställa att ryska medborgare har tillgång till korrekt och opartisk information. Vi utvecklar metoder för att identifiera och neutralisera desinformationskampanjer och stärker den nationella mediekompetensen. Målet är att värna om Rysslands demokratiska processer och skydda dem från extern manipulation."
   }
 ];
