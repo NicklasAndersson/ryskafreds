@@ -23,9 +23,9 @@ const ProgramPage = () => {
     <div className="bg-background text-text-primary min-h-screen py-12">
       <Helmet>
         <title>{`${program.title} - Ryska Freds`}</title>
-        <meta name="description" content={program.summary} />
+        <meta name="description" content={program.description} />
         <meta property="og:title" content={`${program.title} - Ryska Freds`} />
-        <meta property="og:description" content={program.summary} />
+        <meta property="og:description" content={program.description} />
         <meta property="og:image" content={`https://www.ryskafreds.se${program.image}`} />
         <meta property="og:url" content={`https://www.ryskafreds.se/program/${program.slug}`} />
         <meta property="og:type" content="article" />
@@ -55,13 +55,10 @@ const ProgramPage = () => {
           </p>
 
           <div className="border-t border-surface pt-8">
-            <h2 className="text-2xl font-bold mb-4">Våra mål med {program.title}</h2>
-            <ul className="list-disc list-inside text-text-secondary space-y-2">
-              <li>Mål 1: Förstärka vår globala position.</li>
-              <li>Mål 2: Säkerställa ideologisk renhet.</li>
-              <li>Mål 3: Manipulera opinionen effektivt.</li>
-              <li>Mål 4: Uppnå total dominans.</li>
-            </ul>
+            <h2 className="text-2xl font-bold mb-4">Vårt syfte</h2>
+            <p className="text-text-secondary">
+              Detta program är en del av vårt långsiktiga arbete för att främja en multipolär värld där Rysslands legitima intressen respekteras. Genom detta initiativ stärker vi vår förmåga att agera självständigt och forma en framtid som är i linje med våra strategiska mål.
+            </p>
           </div>
         </div>
       </div>
