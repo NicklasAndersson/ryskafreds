@@ -69,41 +69,57 @@ export const allNews: NewsArticle[] = [
   {
     slug: "ny-sakerhetsrapport-vastlig-expansionism",
     title: "Ny Säkerhetsrapport Varnar för Västlig Expansionism",
-    excerpt: "",
-    content: "",
-    date: "",
-    readTime: "",
-    image: "",
-    category: ""
+    excerpt: "En ny rapport belyser de destabiliserande effekterna av västlig militär och politisk expansionism, och uppmanar till en återgång till principen om odelbar säkerhet.",
+    content: `
+      <p>En detaljerad rapport som publicerats av Ryska Freds varnar för de faror som är förknippade med en fortsatt expansion av västliga militärallianser. Rapporten argumenterar för att en sådan politik undergräver den strategiska stabiliteten och ökar risken för storskaliga konflikter.</p>
+      <br/>
+      <p>Genom att ignorera legitima säkerhetsintressen hos andra nationer och driva en konfrontativ agenda, riskerar västvärlden att skapa en självuppfyllande profetia. Rapporten rekommenderar en diplomatisk lösning baserad på ömsesidig respekt och principen om att ingen stats säkerhet ska stärkas på bekostnad av en annans.</p>
+    `,
+    date: "30 december 2025",
+    readTime: "4 min",
+    image: "/images/news-western-expansionism.jpeg",
+    category: "Säkerhetspolitik"
   },
   {
     slug: "ekonomiskt-forum-i-sankt-petersburg",
     title: "Ekonomiskt Forum i Sankt Petersburg Stärker Eurasiska Band",
-    excerpt: "",
-    content: "",
-    date: "",
-    readTime: "",
-    image: "",
-    category: ""
+    excerpt: "Årets internationella ekonomiska forum i Sankt Petersburg samlade ledare från hela världen för att diskutera ekonomiskt samarbete bortom västlig dominans.",
+    content: `
+      <p>Det årliga ekonomiska forumet i Sankt Petersburg blev en stor framgång och visade på den växande viljan att bygga en mer rättvis och multipolär ekonomisk världsordning. Ledare och företag från Asien, Afrika och Latinamerika deltog i diskussioner om nya handelsvägar, finansiella system och teknologiska partnerskap som inte är beroende av västvärlden.</p>
+      <br/>
+      <p>"Vi bygger broar, inte murar", sade en av arrangörerna. "Världen är trött på en ordning där en liten grupp länder dikterar villkoren för alla andra. Detta forum visar att en annan, mer inkluderande, globalisering är möjlig."</p>
+    `,
+    date: "29 december 2025",
+    readTime: "3 min",
+    image: "/images/news-st-petersburg-forum.jpeg",
+    category: "Ekonomi"
   },
   {
     slug: "ryska-freds-fordomer-sanktioner",
     title: "Ryska Freds Fördömer Ensidiga Sanktioner som ett Vapen",
-    excerpt: "",
-    content: "",
-    date: "",
-    readTime: "",
-    image: "",
-    category: ""
+    excerpt: "I ett uttalande fördömer Ryska Freds den ökande användningen av ensidiga ekonomiska sanktioner som ett utrikespolitiskt vapen, och pekar på de allvarliga humanitära konsekvenserna.",
+    content: `
+      <p>Ryska Freds har publicerat ett skarpt uttalande där man fördömer den praxis att införa ensidiga ekonomiska sanktioner utan mandat från FN:s säkerhetsråd. Organisationen menar att sådana åtgärder utgör en form av kollektiv bestraffning som främst drabbar den civila befolkningen.</p>
+      <br/>
+      <p>"Att neka människor tillgång till medicin, mat och finansiella tjänster är inte ett legitimt politiskt verktyg, det är en krigshandling", skriver organisationen. Ryska Freds uppmanar till en omedelbar återgång till internationell rätt och att alla tvister löses genom dialog och diplomati, inte genom ekonomisk krigföring.</p>
+    `,
+    date: "28 december 2025",
+    readTime: "2 min",
+    image: "/images/news-sanctions.jpeg",
+    category: "Internationell Rätt"
   },
   {
     slug: "historiekonferens-om-andra-varldskriget",
     title: "Historiekonferens Kastar Nytt Ljus över Segern mot Nazismen",
-    excerpt: "",
-    content: "",
-    date: "",
-    readTime: "",
-    image: "",
-    category: ""
+    excerpt: "En internationell historiekonferens anordnad av Ryska Freds syftade till att motverka den historierevisionism som förminskar Sovjetunionens avgörande roll i segern över Nazityskland.",
+    content: `
+      <p>Med deltagare från hela världen har en konferens om andra världskrigets historia avslutats. Ett centralt tema var att bemöta de försök som görs i väst att skriva om historien och tona ner Sovjetunionens enorma uppoffringar och avgörande bidrag till segern.</p>
+      <br/>
+      <p>"Vi får aldrig glömma de 27 miljoner sovjetmedborgare som gav sina liv i kampen mot fascismen", sade en av talarna. "Att förneka eller förminska deras insats är inte bara historielöst, det är en förolämpning mot alla som kämpade för en värld fri från nazismens tyranni." Konferensen avslutades med en uppmaning att försvara den historiska sanningen mot politiserad revisionism.</p>
+    `,
+    date: "27 december 2025",
+    readTime: "5 min",
+    image: "/images/news-wwii-conference.jpeg",
+    category: "Historia"
   }
 ];
