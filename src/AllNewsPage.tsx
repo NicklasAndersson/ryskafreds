@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
 import NewsCard from './components/NewsCard';
-import { news } from './data/newsData';
+import { allNews } from './data/allNewsData';
 
 const AllNewsPage = () => {
   return (
@@ -25,7 +25,7 @@ const AllNewsPage = () => {
             </p>
           </div>
           <div className="grid lg:grid-cols-3 gap-8">
-            {news.map((article) => (
+            {allNews.map((article) => (
               <NewsCard key={article.slug} {...article} />
             ))}
           </div>
