@@ -1,8 +1,8 @@
-import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
+import ErrorBoundary from './components/ErrorBoundary';
 import Layout from './components/Layout';
 import AllNewsPage from './AllNewsPage';
 import HomePage from './HomePage';
@@ -10,9 +10,8 @@ import ArticlePage from './ArticlePage';
 import PrivacyPolicyPage from './PrivacyPolicyPage';
 import TermsOfServicePage from './TermsOfServicePage';
 import CookiePolicyPage from './CookiePolicyPage';
-import ProgramPage from './ProgramPage'; // Import ProgramPage
-
-import SplashPage from './components/SplashPage'; // Import SplashPage
+import ProgramPage from './ProgramPage';
+import SplashPage from './components/SplashPage';
 
 import './index.css';
 
@@ -58,9 +57,9 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+  <ErrorBoundary>
     <HelmetProvider>
       <RouterProvider router={router} />
     </HelmetProvider>
-  </React.StrictMode>,
+  </ErrorBoundary>,
 )

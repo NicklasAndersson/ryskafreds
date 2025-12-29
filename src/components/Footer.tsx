@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Heart, Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react';
+import { Heart, Twitter } from 'lucide-react';
 
 const Footer = () => {
   
