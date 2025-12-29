@@ -1,6 +1,6 @@
-const fs = require('fs');
-const { news } = require('./dist/data/newsData.js');
-const { programs } = require('./dist/data/programData.js');
+import fs from 'fs';
+import { news } from './src/data/newsData.ts';
+import { programs } from './src/data/programData.ts';
 
 const domain = 'https://www.ryskafreds.se';
 
