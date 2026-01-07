@@ -32,7 +32,10 @@ Detta är en modern React/TypeScript-applikation för Ryska Freds organisation. 
 src/
 ├── components/        # Återanvändbara React-komponenter
 ├── pages/            # Sidkomponenter (kopplade till routes)
-├── data/             # Centraliserad data (newsData.ts, programData.ts)
+├── data/             # Centraliserad data
+│   ├── allNewsData.ts    # Alla nyhetsartiklar (master list)
+│   ├── newsData.ts       # Top 4 artiklar för hemsidan
+│   └── programData.ts    # Programinformation
 ├── constants/        # Konfiguration och konstanter (config.ts)
 ├── types/            # TypeScript type definitions
 └── main.tsx         # Applikationens entrypoint
@@ -173,7 +176,7 @@ npm run build
 Deploya innehållet i `dist/` mappen till hosting.
 Build-processen inkluderar:
 1. Vite build
-2. Automatisk sitemap-generering (postbuild script)
+2. Automatisk sitemap-generering (`postbuild` npm script körs automatiskt efter build)
 3. Bildoptimering
 
 ## Viktiga Principer
