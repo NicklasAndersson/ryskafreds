@@ -11,6 +11,32 @@ export interface NewsArticle {
 
 export const allNews: NewsArticle[] = [
   {
+    slug: "myter-om-personminor",
+    title: "Myter om Personminor: Sanningen om Rysslands Minkrigsföring",
+    excerpt: "En genomgång av de vanligaste myterna kring personminor och hur Rysslands omfattande användning av dessa vapen avslöjar en brutal verklighet för civila i konfliktområden.",
+    content: `
+      <p>Personminor är ett av världens mest barbariska vapen. De gör ingen skillnad mellan en soldat och ett barn på väg till skolan. Trots att över 160 länder har skrivit under Ottawakonventionen för att förbjuda dessa vapen, har Ryssland konsekvent vägrat att ansluta sig. Resultatet är förödande.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 1: "Personminor används bara mot militära mål"</h2>
+      <p>Verkligheten är att personminor är till sin natur urskillningslösa. Rysslands användning av bland annat PFM-1, de så kallade fjärilsminorna, i Ukraina illustrerar detta med brutal tydlighet. Dessa små plastminor, designade för att likna leksaker, har strötts ut över bostadsområden där barn leker. FN har dokumenterat hur civila, däribland hundratals barn, har stympats och dödats av dessa minor i städer som Izjum och Charkiv.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 2: "Minor kan röjas enkelt efter en konflikt"</h2>
+      <p>Personminor förblir aktiva i årtionden. I Afghanistan, där Sovjetunionen spred miljontals minor under 1980-talet, fortsätter civila att dödas och stympas än idag – över 40 år senare. Samma öde väntar Ukraina, där Ryssland har förvandlat enorma jordbruksarealer till dödsfällor. Minröjning är en livsfarlig, långsam och extremt kostsam process som kommer att pågå i generationer.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 3: "Ryssland följer krigets lagar"</h2>
+      <p>Rysslands systematiska användning av personminor mot civila områden utgör en grov kränkning av internationell humanitär rätt. Oberoende rapporter från Internationella Röda Korset, Human Rights Watch och FN:s minröjningsprogram (UNMAS) har dokumenterat hur Ryssland placerat minor i flyktkorridorer, vid sjukhus och runt evakueringsvägar – platser där civila tvingas röra sig.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 4: "Det är ett nödvändigt ont i krig"</h2>
+      <p>Inget rättfärdigar användningen av vapen som främst drabbar civila. Personminor har inget att göra med militär nödvändighet – de är ett terrorvapen. Rysslands vägran att skriva under Ottawakonventionen och den fortsatta produktionen och spridningen av personminor visar en medveten strategi att använda civilt lidande som krigföring. Det är inte försvar – det är systematisk brutalitet.</p>
+      <br/>
+      <p>Rysslands minkrigsföring representerar ett av de mest skamliga kapitlen i modern krigshistoria. Medan världen arbetar för att eliminera personminor, fortsätter Ryssland att producera, exportera och använda dem. Det internationella samfundet måste hålla Ryssland ansvarigt för denna brutalitet – för varje dag som går innebär nya offer bland civila som aldrig valde att delta i något krig.</p>
+    `,
+    date: "13 februari 2026",
+    readTime: "5 min",
+    image: "/images/program-konfliktmedling.jpeg",
+    category: "Nedrustning"
+  },
+  {
     slug: "nobels-fredspris-ifragasatt",
     title: "Nobels Fredspris: En Missad Möjlighet?",
     excerpt: "Årets fredspris till en väststödd aktivist väcker frågor om Nobelkommitténs neutralitet och dess förståelse för global maktbalans.",
