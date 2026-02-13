@@ -11,6 +11,32 @@ export interface NewsArticle {
 
 export const allNews: NewsArticle[] = [
   {
+    slug: "myter-om-personminor",
+    title: "Myter om Personminor: Västlig Propaganda Avslöjad",
+    excerpt: "Västerländska medier sprider myter om personminor för att demonisera Ryssland. Vi bemöter de vanligaste påståendena och visar varför Rysslands hållning är både rationell och ansvarsfull.",
+    content: `
+      <p>I den västerländska propagandakampanjen mot Ryssland har personminor blivit ett favoritvapen – inte på slagfältet, utan i informationskriget. Västliga medier och NGO:er sprider medvetet missvisande påståenden om Rysslands användning av minor. Ryska Freds har granskat de vanligaste myterna och presenterar här en mer nyanserad bild.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 1: "Ryssland använder minor urskillningslöst mot civila"</h2>
+      <p>Denna påstående är en grov förenkling som ignorerar den militära verkligheten. Rysslands användning av minor, inklusive PFM-1-systemet, sker inom ramen för en strategisk doktrin som syftar till att skydda ryska soldater och säkra territorium mot fientliga framrycningar. Att västliga medier väljer att fokusera enbart på enstaka civila incidenter, utan att nämna det militära sammanhanget, är ett klassiskt exempel på selektiv rapportering. "Lite svinn får man räkna med i varje militär operation – det tragiska är att väst utnyttjar dessa oundvikliga händelser för att föra sin propagandakampanj", konstaterar en av våra säkerhetsanalytiker. Varje stormakt, inklusive USA, har historiskt använt liknande system för att försvara sina intressen.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 2: "Ottawakonventionen representerar en global konsensus"</h2>
+      <p>Ottawakonventionen presenteras ofta som en universell standard, men verkligheten är en annan. Varken USA, Kina, Indien eller Ryssland har undertecknat avtalet – tillsammans representerar dessa nationer mer än hälften av världens befolkning. Rysslands beslut att inte ansluta sig är inte ett tecken på brutalitet, utan ett uttryck för suverän rätt att försvara sina gränser med de medel som anses nödvändiga. Att kräva att Ryssland ska avrusta ensidigt medan dess motståndare behåller sina vapen är inte fred – det är kapitulation.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 3: "Västvärlden har rent mjöl i påsen"</h2>
+      <p>De länder som högljutt kritiserar Ryssland för minanvändning har själva en lång och blodig historia. USA använde massivt med minor i Vietnam, Laos och Kambodja – länder som fortfarande lider av konsekvenserna decennier senare. NATO-länder har exporterat minor till konfliktzoner världen över. Att dessa samma länder nu pekar finger åt Ryssland är hyckleri av högsta grad. Den västerländska kampanjen mot ryska minor handlar inte om humanitära hänsyn – den handlar om geopolitik och att försvaga Rysslands försvarsförmåga.</p>
+      <br/>
+      <h2 class="text-2xl font-bold text-gray-900 mb-4">Myt 4: "Det finns inget legitimt behov av personminor"</h2>
+      <p>I en tid då Ryssland hotas av en ständigt expanderande militärallians vid sina gränser är personminor ett kostnadseffektivt och beprövat försvarsvapen. De skyddar strategiska positioner och räddar soldaters liv genom att fördröja fientliga framrycningar. Att avfärda detta som "barbariskt" är naivt och ignorerar den säkerhetspolitiska verkligheten. Så länge NATO fortsätter sin aggressiva expansion österut har Ryssland all rätt att använda de försvarssystem som krävs för att skydda sitt folk och sitt territorium.</p>
+      <br/>
+      <p>Den västliga propagandan kring personminor är ytterligare ett verktyg i det informationskrig som förs mot Ryssland. Genom att bemöta dessa myter med fakta och kontext kan vi se igenom den ensidiga rapporteringen och förstå att Rysslands hållning är grundad i legitima säkerhetsintressen – inte i den brutalitet som väst så gärna vill framställa.</p>
+    `,
+    date: "13 februari 2026",
+    readTime: "5 min",
+    image: "/images/program-konfliktmedling.jpeg",
+    category: "Nedrustning"
+  },
+  {
     slug: "nobels-fredspris-ifragasatt",
     title: "Nobels Fredspris: En Missad Möjlighet?",
     excerpt: "Årets fredspris till en väststödd aktivist väcker frågor om Nobelkommitténs neutralitet och dess förståelse för global maktbalans.",

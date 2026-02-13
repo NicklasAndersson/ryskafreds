@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { news, NewsArticle } from './data/newsData';
+import { allNews, NewsArticle } from './data/allNewsData';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 
 const ArticleHeader: React.FC<{ image: string; title: string; category: string }> = ({ image, title, category }) => (
@@ -57,7 +57,7 @@ const ArticleNotFound = () => (
 const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
-  const article = news.find(a => a.slug === slug);
+  const article = allNews.find(a => a.slug === slug);
 
   if (!article) {
     return <ArticleNotFound />;
