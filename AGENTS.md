@@ -1,4 +1,4 @@
-# GitHub Copilot Instructions för Ryska Freds
+# Ryska Freds - Instruktioner för AI-agenter
 
 ## Projektöversikt
 
@@ -11,41 +11,6 @@ Detta är en modern React/TypeScript-applikation för Ryska Freds organisation. 
 - Tailwind CSS för styling
 - Lucide React för ikoner
 - Sharp för bildoptimering
-
-## Kodningsstandarder
-
-### TypeScript
-- Använd TypeScript för ALL ny kod
-- Importera typer från `src/types/index.ts` för type safety
-- Använd strikta TypeScript-inställningar (se `tsconfig.json`)
-- Undvik `any` - använd specifika typer eller `unknown` när nödvändigt
-
-### React-komponenter
-- Använd **endast funktionella komponenter** med Hooks
-- Komponenter ska vara små och fokuserade på en uppgift
-- Använd deskriptiva namn som reflekterar komponentens syfte
-- Props ska vara tydligt definierade med TypeScript interfaces
-- Använd `React.memo` endast för dyra komponenter där det verkligen behövs
-
-### Filstruktur
-```
-src/
-├── components/        # Återanvändbara React-komponenter
-├── pages/            # Sidkomponenter (kopplade till routes)
-├── data/             # Centraliserad data
-│   ├── allNewsData.ts    # Alla nyhetsartiklar (master list)
-│   ├── newsData.ts       # Top 4 artiklar för hemsidan
-│   └── programData.ts    # Programinformation
-├── constants/        # Konfiguration och konstanter (config.ts)
-├── types/            # TypeScript type definitions
-└── main.tsx         # Applikationens entrypoint
-```
-
-### Namngivningskonventioner
-- Komponenter: PascalCase (t.ex. `Header.tsx`, `ArticlePage.tsx`)
-- Filer med data: camelCase med beskrivande suffix (t.ex. `newsData.ts`, `programData.ts`)
-- Konstanter: UPPER_SNAKE_CASE för konstanter, camelCase för konfigurationsobjekt
-- Funktioner: camelCase med verb-substantiv mönster (t.ex. `fetchArticle`, `handleClick`)
 
 ## Setup och Kommandon
 
@@ -69,6 +34,56 @@ npm run lint -- --fix
 npm run preview
 ```
 
+## Kodningsstandarder
+
+### TypeScript
+- Använd TypeScript för ALL ny kod
+- Importera typer från `src/types/index.ts` för type safety
+- Använd strikta TypeScript-inställningar (se `tsconfig.json`)
+- Undvik `any` - använd specifika typer eller `unknown` när nödvändigt
+
+### React-komponenter
+- Använd **endast funktionella komponenter** med Hooks
+- Komponenter ska vara små och fokuserade på en uppgift
+- Använd deskriptiva namn som reflekterar komponentens syfte
+- Props ska vara tydligt definierade med TypeScript interfaces
+- Använd `React.memo` endast för dyra komponenter där det verkligen behövs
+
+### Namngivningskonventioner
+- Komponenter: PascalCase (t.ex. `Header.tsx`, `ArticlePage.tsx`)
+- Filer med data: camelCase med beskrivande suffix (t.ex. `newsData.ts`, `programData.ts`)
+- Konstanter: UPPER_SNAKE_CASE för konstanter, camelCase för konfigurationsobjekt
+- Funktioner: camelCase med verb-substantiv mönster (t.ex. `fetchArticle`, `handleClick`)
+
+## Filstruktur
+
+```
+src/
+├── components/        # Återanvändbara React-komponenter
+├── pages/            # Sidkomponenter (kopplade till routes)
+├── data/             # Centraliserad data
+│   ├── allNewsData.ts    # Alla nyhetsartiklar (master list)
+│   ├── newsData.ts       # Top 4 artiklar för hemsidan
+│   └── programData.ts    # Programinformation
+├── constants/        # Konfiguration och konstanter (config.ts)
+├── types/            # TypeScript type definitions
+└── main.tsx         # Applikationens entrypoint
+```
+
+## Styling med Tailwind CSS
+
+### Styling-regler
+1. **Använd endast Tailwind CSS-klasser** - ingen inline CSS med `style` attribut
+2. **Dark mode**: All styling ska vara dark-mode ready (projektet använder dark theme)
+3. **Responsiv design**: Använd Tailwind responsive prefixes (`sm:`, `md:`, `lg:`, `xl:`)
+4. **Återanvändbarhet**: Skapa custom components för upprepade styling-mönster istället för att duplicera klasser
+
+### Tailwind Best Practices
+- Gruppera relaterade klasser (layout, spacing, colors, typography)
+- Använd Tailwind's utility-first approach
+- Utnyttja `@apply` direktivet i CSS endast när absolut nödvändigt
+- All CSS purgas automatiskt vid build
+
 ## Komponenter och State Management
 
 ### State Management
@@ -85,20 +100,6 @@ npm run preview
 - Använd React Router v6 för all navigering
 - Lazy loading är konfigurerat för större sidor
 - Routes definieras i `main.tsx`
-
-## Styling med Tailwind CSS
-
-### Styling-regler
-1. **Använd endast Tailwind CSS-klasser** - ingen inline CSS med `style` attribut
-2. **Dark mode**: All styling ska vara dark-mode ready (projektet använder dark theme)
-3. **Responsiv design**: Använd Tailwind responsive prefixes (`sm:`, `md:`, `lg:`, `xl:`)
-4. **Återanvändbarhet**: Skapa custom components för upprepade styling-mönster istället för att duplicera klasser
-
-### Tailwind Best Practices
-- Gruppera relaterade klasser (layout, spacing, colors, typography)
-- Använd Tailwind's utility-first approach
-- Utnyttja `@apply` direktivet i CSS endast när absolut nödvändigt
-- All CSS purgas automatiskt vid build
 
 ## Data Management
 
