@@ -16,4 +16,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run lint
+      - name: Sharp image smoke test
+        run: |
+          node --input-type=module -e "import sharp from 'sharp'; const b = await sharp({create:{width:2,height:2,channels:4,background:'#fff'}}).png().toBuffer(); if (b.length === 0) process.exit(1);"
       - run: npm run build
