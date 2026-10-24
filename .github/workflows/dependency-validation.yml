@@ -1,0 +1,22 @@
+name: Dependency validation
+on:
+  pull_request:
+    paths:
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/dependency-validation.yml'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run lint
+      - name: Sharp image smoke test
+        run: |
+          node --input-type=module -e "import sharp from 'sharp'; const b = await sharp({create:{width:2,height:2,channels:4,background:'#fff'}}).png().toBuffer(); if (b.length === 0) process.exit(1);"
+      - run: npm run build
